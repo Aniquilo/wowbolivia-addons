@@ -1,0 +1,26 @@
+## Interface: 30300
+
+## Title: Leatrix Maps - [|cff5aa9ffWoW Bolivia|r]
+## Notes: Enhancements for your maps.
+
+## Version: 3.5.44
+## Author: Leatrix
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/5Buttons/Leatrix-Maps-3.3.5 @ c5e36489fe
+## SavedVariables: LeaMapsDB MagnifyOptions
+
+## OptionalDeps: Leatrix_enUS, ElvUI, Demodal, Carbonite
+
+## X-Curse-Project-ID: 463868
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\AceTimer-3.0\AceTimer-3.0.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+Leatrix_Maps_Locale.lua
+Leatrix_Maps.xml
+Leatrix_Maps_Icons.lua
+Leatrix_Maps_Reveal.lua
+Leatrix_Maps_Zoom.lua
+Leatrix_Maps.lua
