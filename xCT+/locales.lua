@@ -642,7 +642,7 @@ elseif locale == "ruRU" then
         ["Show Overkill"] = "Показывать избыточный урон",
     }
 
-elseif locale == "esES" then
+elseif locale == "esES" or locale == "esMX" then
     xCT_Plus_L = {
         -- Incoming Icons
         ["Incoming damage icons"] = "Iconos de daño entrante",
