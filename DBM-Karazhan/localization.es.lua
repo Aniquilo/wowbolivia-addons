@@ -249,3 +249,18 @@ L = DBM:GetModLocalization("Rokad")
 L:SetGeneralLocalization({
 	name = "Rokad el Devastador"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Oz")
+	L:SetOptionLocalization({
+		["AnnounceBosses"] = "Mostrar avisos cuando aparezcan jefes",
+		["ShowBossTimers"] = "Mostrar temporizadores para la aparición de jefes",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Chess")
+	L:SetGeneralLocalization({
+		["name"] = "Evento de ajedrez",
+	})
+end

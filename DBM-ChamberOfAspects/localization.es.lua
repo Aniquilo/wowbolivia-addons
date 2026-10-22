@@ -201,3 +201,14 @@ L:SetMiscLocalization({
 	twilightcutter			= "¡Temed la sombra!", -- ¡Las esferas que orbitan emiten energía oscura!", -- Can't use this since on Warmane it triggers twice, 5s prior and on cutter.
 	Kill					= "Disfrutad la victoria, mortales, porque será la última. ¡Este mundo arderá cuando vuelva el maestro!"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Halion")
+	L:SetTimerLocalization({
+		["TimerCutterSpawn"] = "Rayo del Cortador Crepuscular",
+	})
+	L:SetOptionLocalization({
+		["TimerCutterSpawn"] = "Mostrar temporizador hasta el siguiente rayo de $spell:74769 (desactiva los temporizadores de siguiente y de lanzamiento)",
+	})
+end

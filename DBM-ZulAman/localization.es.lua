@@ -123,3 +123,23 @@ L:SetMiscLocalization({
 	YellPhase4	= "¡Dejad que os presente a mis nuevos hermanos: colmillo y garra!",
 	YellPhase5	= "¡No tenéis que mirar al cielo para ver al dracohalcón!"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Nalorakk")
+	L:SetOptionLocalization({
+		["WarnBear"] = "Mostrar aviso para la forma de oso",
+		["WarnBearSoon"] = "Mostrar aviso previo para la forma de oso",
+		["WarnNormal"] = "Mostrar aviso para la forma normal",
+		["WarnNormalSoon"] = "Mostrar aviso previo para la forma normal",
+		["TimerBear"] = "Mostrar temporizador para la forma de oso",
+		["TimerNormal"] = "Mostrar temporizador para la forma normal",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Halazzi")
+	L:SetOptionLocalization({
+		["WarnSpirit"] = "Mostrar aviso para la fase de espíritu",
+		["WarnNormal"] = "Mostrar aviso para la fase normal",
+	})
+end

@@ -391,3 +391,27 @@ L:SetMiscLocalization({
 	FleshreaperTrap3	= "¿Los vivos? ¿¡Aquí!?",
 	SindragosaEvent		= "No se acercarán a la Reina de Escarcha. ¡Deténganlos, rápido!"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Deathwhisper")
+	L:SetOptionLocalization({
+		["SoundWarnCountingMC"] = "Cuenta atrás de 5 segundos con sonido para Control mental",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Deathbringer")
+	L:SetWarningLocalization({
+		["SpecWarnBloodBeastSwing"] = "Bestia de sangre te ataca: ¡aléjate!",
+	})
+	L:SetOptionLocalization({
+		["SpecWarnBloodBeastSwing"] = "Mostrar aviso especial cuando te ataque una Bestia de sangre",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Putricide")
+	L:SetOptionLocalization({
+		["WarnReengage"] = "Mostrar aviso cuando el jefe vuelva al combate",
+		["TimerReengage"] = "Mostrar temporizador hasta que el jefe vuelva al combate",
+	})
+end

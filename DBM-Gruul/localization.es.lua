@@ -22,3 +22,13 @@ L:SetWarningLocalization({
 L:SetOptionLocalization({
 	WarnGrowth	= "Mostrar aviso para $spell:36300"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Gruul")
+	L:SetOptionLocalization({
+		["RangeDistance"] = "Distancia del marco de alcance para $spell:33654",
+		["Smaller"] = "Distancia menor (11)",
+		["Safe"] = "Distancia más segura (18)",
+	})
+end

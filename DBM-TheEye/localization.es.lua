@@ -1,4 +1,4 @@
-if GetLocale() ~= "esES" then return end
+if GetLocale() ~= "esES" and GetLocale() ~= "esMX" then return end
 local L
 
 -----------
@@ -125,3 +125,11 @@ L:SetMiscLocalization({
 	Staff		= "Bastón de desintegración",
 	Egg			= "Huevo de fénix"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("KaelThas")
+	L:SetOptionLocalization({
+		["TimerNextGaze"] = "Mostrar temporizador para los cambios de objetivo de la Mirada de Thaladred",
+	})
+end

@@ -410,3 +410,37 @@ L = DBM:GetModLocalization(533)
 L:SetMiscLocalization({
 	KaelP2	= "Pondré vuestro mundo... cabeza... abajo."
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("AuctTombsTrash")
+	L:SetWarningLocalization({
+		["warnSummon"] = "Invocar elementales",
+		["warnBrood"] = "Progenie de Anzu",
+		["warnStoned"] = "%s volvió a ser de piedra",
+	})
+	L:SetOptionLocalization({
+		["warnSummon"] = "Mostrar aviso cuando se invoquen elementales",
+		["warnBrood"] = "Mostrar aviso para la Progenie de Anzu",
+		["warnStoned"] = "Mostrar aviso cuando los espíritus vuelvan a ser de piedra",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Ironhand")
+	L:SetWarningLocalization({
+		["warnSplitSoon"] = "Ilusión del Presagista pronto",
+		["warnSplit"] = "Ilusión del Presagista",
+		["warningFelCrystal"] = "Cristal vil: cambia de objetivo",
+		["warnEnergy"] = "Energía pura: cambia de objetivo",
+	})
+	L:SetOptionLocalization({
+		["warnSplitSoon"] = "Mostrar aviso previo para la Ilusión del Presagista",
+		["warnSplit"] = "Mostrar aviso para la Ilusión del Presagista",
+		["warningFelCrystal"] = "Mostrar aviso especial para cambiar de objetivo al Cristal vil",
+		["timerFelCrystal"] = "Mostrar temporizador para el Cristal vil",
+		["warnEnergy"] = "Mostrar aviso para la Energía pura",
+	})
+	L:SetTimerLocalization({
+		["timerFelCrystal"] = "~Cristal vil",
+	})
+end

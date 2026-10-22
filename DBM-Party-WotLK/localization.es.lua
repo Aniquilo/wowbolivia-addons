@@ -937,3 +937,11 @@ L:SetMiscLocalization({
 	Wave3			= "Otro final sin salida.",
 	Wave4			= "¿Cuánto vais a aguantar?"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("GrandChampions")
+	L:SetGeneralLocalization({
+		["name"] = "Grandes campeones",
+	})
+end

@@ -408,3 +408,228 @@ L:SetMiscLocalization({
 	setMissing	= "¡ATENCIÓN! El desequipamiento / equipamiento automático de armas de DBM no funcionará hasta que cree un equipamiento llamado pve",
 	EqUneqLineDescription	= "Equipar/desequipar automático"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Faerlina")
+	L:SetGeneralLocalization({
+		["name"] = "Gran Viuda Faerlina",
+	})
+	L:SetWarningLocalization({
+		["WarningEmbraceExpire"] = "Abrazo de la viuda expirando en 5 s",
+	})
+	L:SetOptionLocalization({
+		["WarningEmbraceExpire"] = "Mostrar aviso previo para cuando expire Abrazo de la viuda",
+	})
+	L:SetMiscLocalization({
+		["Pull"] = "¡Arrodíllate ante mí, sabandija!",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Maexxna")
+	L:SetWarningLocalization({
+		["WarningSpidersSoon"] = "Arañitas de Maexxna en 5 s",
+		["WarningSpidersNow"] = "Arañitas de Maexxna",
+	})
+	L:SetTimerLocalization({
+		["TimerSpider"] = "Siguientes arañitas",
+	})
+	L:SetOptionLocalization({
+		["WarningSpidersSoon"] = "Mostrar aviso previo para cuando aparezcan Arañitas de Maexxna",
+		["WarningSpidersNow"] = "Mostrar aviso cuando aparezcan Arañitas de Maexxna",
+		["TimerSpider"] = "Mostrar temporizador para las siguientes Arañitas de Maexxna",
+	})
+	L:SetMiscLocalization({
+		["ArachnophobiaTimer"] = "Logro: Aracnofobia",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Noth")
+	L:SetGeneralLocalization({
+		["name"] = "Noth el Pesteador",
+	})
+	L:SetWarningLocalization({
+		["WarningTeleportNow"] = "Teletransporte",
+		["WarningTeleportSoon"] = "Teletransporte en 10 s",
+	})
+	L:SetTimerLocalization({
+		["TimerTeleport"] = "Teletransporte: Balcón",
+		["TimerTeleportBack"] = "Teletransporte: Suelo",
+	})
+	L:SetOptionLocalization({
+		["WarningTeleportNow"] = "Mostrar aviso para Teletransporte",
+		["WarningTeleportSoon"] = "Mostrar aviso previo para Teletransporte",
+		["TimerTeleport"] = "Mostrar temporizador para el siguiente Teletransporte: Balcón",
+		["TimerTeleportBack"] = "Mostrar temporizador para Teletransporte: Suelo",
+	})
+	L:SetMiscLocalization({
+		["Pull"] = "¡Muere, intruso!",
+		["Adds"] = "invoca a guerreros esqueletos!",
+		["AddsTwo"] = "alza más esqueletos!",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Heigan")
+	L:SetGeneralLocalization({
+		["name"] = "Heigan el Impuro",
+	})
+	L:SetWarningLocalization({
+		["WarningTeleportNow"] = "Teletransporte",
+		["WarningTeleportSoon"] = "Teletransporte en %d s",
+	})
+	L:SetTimerLocalization({
+		["TimerTeleport"] = "Teletransporte",
+	})
+	L:SetOptionLocalization({
+		["WarningTeleportNow"] = "Mostrar aviso para Teletransporte",
+		["WarningTeleportSoon"] = "Mostrar aviso previo para Teletransporte",
+		["TimerTeleport"] = "Mostrar aviso para Teletransporte",
+	})
+	L:SetMiscLocalization({
+		["Pull"] = "Ahora me perteneces.",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Loatheb")
+	L:SetWarningLocalization({
+		["WarningHealSoon"] = "Sanación posible en 3 s",
+		["WarningHealNow"] = "¡Sanad ahora!",
+	})
+	L:SetOptionLocalization({
+		["WarningHealSoon"] = "Mostrar aviso previo para la franja de sanación",
+		["WarningHealNow"] = "Mostrar aviso para la franja de sanación",
+		["SporeDamageAlert"] = "Enviar susurros y avisar a la banda de los jugadores que estén dañando esporas\n(necesita 'anunciar' activado y lider/ayudante)",
+		["CorruptedSorting"] = "Orden del marco de información para $spell:55593",
+		["Alphabetical"] = "Orden alfabético",
+		["Duration"] = "Ordenar por duración",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Patchwerk")
+	L:SetGeneralLocalization({
+		["name"] = "Remendejo",
+	})
+	L:SetOptionLocalization({
+		["WarningHateful"] = "Avisar por chat de banda los Golpes de Odio (necesitas ser ayudante o lider para eso)",
+	})
+	L:SetMiscLocalization({
+		["yell1"] = "¡Remendejo quiere jugar!",
+		["yell2"] = "¡Remendejo es la encarnación de guerra de Kel'Thuzad!",
+		["HatefulStrike"] = "Golpe de Odio --> %s [%s]",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Thaddius")
+	L:SetWarningLocalization({
+		["WarningChargeChanged"] = "Polaridad cambiada a %s",
+		["WarningChargeNotChanged"] = "Tu polaridad no ha cambiado",
+	})
+	L:SetOptionLocalization({
+		["WarningChargeChanged"] = "Mostrar aviso especial cuando tu polaridad cambie",
+		["WarningChargeNotChanged"] = "Mostrar aviso especial cuando tu polaridad no cambie",
+		["ArrowsEnabled"] = "Mostrar flechas (estrategia típica de dos grupos)",
+		["TwoCamp"] = "Mostrar flechas (estrategia normal de \"2 campamentos\" cruzando)",
+		["ArrowsRightLeft"] = "Mostrar flechas de izquierda y derecha (estrategia de cuatro grupos; muestra la flecha izquierda si cambia la polaridad, y la derecha si no cambia)",
+		["ArrowsInverse"] = "Mostrar flechas de izquierda y derecha inversas (estrategia de cuatro grupos; muestra la flecha derecha si cambia la polaridad, y la izquierda si no cambia)",
+	})
+	L:SetMiscLocalization({
+		["Yell"] = "¡Stalagg aplasta!",
+		["Emote"] = "¡%s se sobrecarga!",
+		["Emote2"] = "¡Espiral Tesla se sobrecarga!",
+		["Charge1"] = "negativo",
+		["Charge2"] = "positivo",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Razuvious")
+	L:SetWarningLocalization({
+		["WarningShieldWallSoon"] = "Barrera de huesos termina en 5 s",
+	})
+	L:SetOptionLocalization({
+		["WarningShieldWallSoon"] = "Mostrar aviso previo para cuando termine $spell:29061",
+	})
+	L:SetMiscLocalization({
+		["Yell1"] = "¡No tengáis piedad!",
+		["Yell2"] = "¡El tiempo de practicar ha pasado! ¡Quiero ver lo que habéis aprendido!",
+		["Yell3"] = "¡Poned en práctica lo que os he enseñado!",
+		["Yell4"] = "Un barrido con pierna... ¿Tienes algún problema?",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Gothik")
+	L:SetGeneralLocalization({
+		["name"] = "Gothik el Cosechador",
+	})
+	L:SetWarningLocalization({
+		["WarningWaveSoon"] = "Oleada %d: %s en 3 s",
+		["WarningWaveSpawned"] = "Oleada %d: %s",
+		["WarningRiderDown"] = "Jinete muerto",
+		["WarningKnightDown"] = "Caballero muerto",
+		["WarningPhase2"] = "Fase 2",
+	})
+	L:SetTimerLocalization({
+		["TimerWave"] = "Oleada %d",
+		["TimerPhase2"] = "Fase 2",
+	})
+	L:SetOptionLocalization({
+		["TimerWave"] = "Mostrar temporizador para la siguiente oleada de esbirros",
+		["TimerPhase2"] = "Mostrar temporizador para el cambio a Fase 2",
+		["WarningWaveSoon"] = "Mostrar aviso previo para la siguiente oleada de esbirros",
+		["WarningWaveSpawned"] = "Mostrar aviso cuando comience una oleada de esbirros",
+		["WarningRiderDown"] = "Mostrar aviso cuando muera un Jinete inflexible",
+		["WarningKnightDown"] = "Mostrar aviso cuando muera un Caballero de la Muerte inflexible",
+	})
+	L:SetMiscLocalization({
+		["yell"] = "Tú mismo has buscado tu final.",
+		["WarningWave2"] = "%d %s y %d %s",
+		["WarningWave3"] = "%d %s, %d %s y %d %s",
+		["Trainee"] = "practicantes",
+		["Knight"] = "caballeros",
+		["Rider"] = "jinetes",
+		["GothikDoorEmote"] = "¡La puerta central se abre!",
+		["GothikPhase2Yell"] = "Ya he esperado suficiente. Ahora os enfrentaréis al Recolector de almas.",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Horsemen")
+	L:SetGeneralLocalization({
+		["name"] = "Los Cuatro Jinetes",
+	})
+	L:SetWarningLocalization({
+		["WarningMarkSoon"] = "Marca %d en 3 s",
+	})
+	L:SetOptionLocalization({
+		["WarningMarkSoon"] = "Mostrar aviso previo para las marcas",
+		["SpecialWarningMarkOnPlayer"] = "Mostrar aviso especial cuando estés afectado por más de cuatro marcas",
+	})
+	L:SetMiscLocalization({
+		["Korthazz"] = "Señor feudal Korth'azz",
+		["Rivendare"] = "Barón Osahendido",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Sapphiron")
+	L:SetWarningLocalization({
+		["WarningAirPhaseSoon"] = "Fase aérea en 10 s",
+		["WarningAirPhaseNow"] = "Fase aérea",
+		["WarningLanded"] = "Fase en tierra",
+		["SpecWarnSapphLow"] = "¡Sapphiron no puede volar!",
+	})
+	L:SetTimerLocalization({
+		["TimerAir"] = "Fase aérea",
+		["TimerLanding"] = "Fase en tierra",
+	})
+	L:SetOptionLocalization({
+		["WarningAirPhaseSoon"] = "Mostrar aviso previo para el cambio a fase aérea",
+		["WarningAirPhaseNow"] = "Anunciar cambio a fase aérea",
+		["WarningLanded"] = "Anunciar cambio a fase en tierra",
+		["TimerAir"] = "Mostrar temporizador para el cambio a fase aérea",
+		["TimerLanding"] = "Mostrar temporizador para el cambio a fase en tierra",
+		["SpecWarnSapphLow"] = "Advertencia especial para fase de ejecución del 10% (cancelación de fase de aire)",
+	})
+	L:SetMiscLocalization({
+		["EmoteBreath"] = "%s respira hondo.",
+		["AirPhase"] = "¡Sapphiron se eleva en el aire!",
+		["LandingPhase"] = "¡Sapphiron reanuda su ataque!",
+	})
+end

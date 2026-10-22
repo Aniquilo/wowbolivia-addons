@@ -175,3 +175,20 @@ L:SetMiscLocalization({
 	OrbYell3		= "¡Otro orbe preparado! ¡Daos prisa!",
 	OrbYell4		= "¡He canalizado todo lo que puedo! ¡El poder está en vuestras manos!"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Muru")
+	L:SetWarningLocalization({
+		["specWarnVoid"] = "Oscuridad: ¡separaos en las calaveras!",
+		["specWarnBH"] = "Agujero negro: ¡separaos en las calaveras!",
+		["specWarnVW"] = "Centinelas del Vacío en 5",
+		["specWarnDarknessSoon"] = "Oscuridad pronto",
+	})
+	L:SetOptionLocalization({
+		["specWarnVoid"] = "Mostrar aviso especial para Penumbra (separarse)",
+		["specWarnBH"] = "Mostrar aviso especial para el agujero negro (separarse)",
+		["specWarnVW"] = "Mostrar aviso especial para el Centinela del Vacío",
+		["specWarnDarknessSoon"] = "Mostrar aviso especial antes de la Oscuridad",
+	})
+end

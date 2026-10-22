@@ -194,3 +194,22 @@ L:SetMiscLocalization({
 	S3TheDemonWithin	= "Fase 3: El demonio interior",
 	S4TheLongHunt		= "Fase 4: La gran cacería"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Akama")
+	L:SetWarningLocalization({
+		["warnAshtongueDefender"] = "Defensor Lengua de ceniza",
+		["warnAshtongueSorcerer"] = "Hechicero Lengua de ceniza",
+	})
+	L:SetTimerLocalization({
+		["timerAshtongueDefender"] = "Defensor Lengua de ceniza: %s",
+		["timerAshtongueSorcerer"] = "Hechicero Lengua de ceniza: %s",
+	})
+	L:SetOptionLocalization({
+		["warnAshtongueDefender"] = "Mostrar aviso para el Defensor Lengua de ceniza",
+		["warnAshtongueSorcerer"] = "Mostrar aviso para el Hechicero Lengua de ceniza",
+		["timerAshtongueDefender"] = "Mostrar temporizador para el Defensor Lengua de ceniza",
+		["timerAshtongueSorcerer"] = "Mostrar temporizador para el Hechicero Lengua de ceniza",
+	})
+end

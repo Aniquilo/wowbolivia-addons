@@ -617,3 +617,47 @@ L.SPECIALIZATION			= "Especialización" -- ID: 22433
 L.HARD_MODE					= "Modo difícil" -- 17220
 L.BOSS_YOU_DEFEATED			= "Has derrotado a" -- 25559
 L.BOSS_KILL_SUBTITLE		= "ha caído" -- 25560
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["COPY_URL_DIALOG_NEWS"] = "Para leer las últimas novedades, visita el enlace de abajo"
+	L["MIN"] = "min"
+	L["MIN_FMT"] = "%d min"
+	L["OPTION_CATEGORY_SPECWARNINGS"] = "Avisos especiales"
+	L["UPDATEREMINDER_DISABLETEST"] = "AVISO: como tu " .. L.DEADLY_BOSS_MODS.. " está desactualizado y este es un reino de pruebas, se ha desactivado y no se podrá usar hasta que lo actualices. Así se evita que se usen módulos viejos para dar comentarios de las pruebas"
+	L["RANGECHECK_LOCK"] = "Bloquear marco"
+	L["RANGECHECK_OPTION_SPEED"] = "Frecuencia de actualización (requiere recargar)"
+	L["RANGECHECK_OPTION_SLOW"] = "Lenta (menos CPU)"
+	L["RANGECHECK_OPTION_AVERAGE"] = "Media"
+	L["RANGECHECK_OPTION_FAST"] = "Rápida (más en tiempo real)"
+	L["LOCK_FRAME"] = "Marco bloqueado"
+	L["TIME_TOO_SHORT"] = "El temporizador de pull debe durar más de 3 segundos."
+	L["BOSSHEALTH_HIDE_FRAME"] = "Cerrar marco de vida"
+	L["AUTO_ICONS_OPTION_TARGETS_TANK_A"] = "Poner iconos en los objetivos de $spell:%s con prioridad tanque > cuerpo a cuerpo > a distancia y luego orden alfabético"
+	L["AUTO_ICONS_OPTION_TARGETS_TANK_R"] = "Poner iconos en los objetivos de $spell:%s con prioridad tanque > cuerpo a cuerpo > a distancia y luego orden de la banda"
+	L["AUTO_ICONS_OPTION_TARGETS_MELEE_A"] = "Poner iconos en los objetivos de $spell:%s con prioridad cuerpo a cuerpo y orden alfabético"
+	L["AUTO_ICONS_OPTION_TARGETS_MELEE_R"] = "Poner iconos en los objetivos de $spell:%s con prioridad cuerpo a cuerpo y orden de la banda"
+	L["AUTO_ICONS_OPTION_TARGETS_RANGED_A"] = "Poner iconos en los objetivos de $spell:%s con prioridad a distancia y orden alfabético"
+	L["AUTO_ICONS_OPTION_TARGETS_RANGED_R"] = "Poner iconos en los objetivos de $spell:%s con prioridad a distancia y orden de la banda"
+	L["AUTO_ICONS_OPTION_TARGETS_ALPHA"] = "Poner iconos en los objetivos de $spell:%s por orden alfabético"
+	L["AUTO_ICONS_OPTION_TARGETS_ROSTER"] = "Poner iconos en los objetivos de $spell:%s por orden de la banda"
+	L["AUTO_NAMEPLATE_OPTION_TEXT_FORCED"] = "Mostrar auras en las placas de nombre para $spell:%s usando solo "..L.DBM
+	L["AUTO_INFO_FRAME_OPTION_TEXT3"] = "Mostrar marco de información para $spell:%s (cuando se alcanza el umbral de %%s)"
+	L["AUTO_PRIVATEAURA_OPTION_TEXT"] = "Reproducir alertas de sonido de DBM para las auras privadas de $spell:%s en este combate. Prioridad de sonido: paquete de voz si hay, si no la bocina"
+	L["REQ_INSTANCE_ID_PERMISSION"] = "%s quiere ver tus IDs de instancia y tu progreso actuales.\n¿Quieres enviarle esta información a %s? Podrá volver a pedírtela durante esta sesión (hasta que vuelvas a conectarte)."
+	L["ERROR_NO_RAID"] = "Tienes que estar en una banda para usar esta función."
+	L["INSTANCE_INFO_REQUESTED"] = "Se pidió a la banda la información de bloqueos de banda.\nTen en cuenta que a cada jugador se le pedirá permiso antes de enviártela, así que puede tardar un minuto en llegar todo."
+	L["INSTANCE_INFO_STATUS_UPDATE"] = "Respondieron %d de %d jugadores con DBM: %d enviaron datos y %d rechazaron la petición. Esperando %d segundos más..."
+	L["INSTANCE_INFO_ALL_RESPONSES"] = "Respondieron todos los miembros de la banda"
+	L["INSTANCE_INFO_DETAIL_DEBUG"] = "Remitente: %s Tipo de resultado: %s Instancia: %s ID de instancia: %s Dificultad: %d Tamaño: %d Progreso: %s"
+	L["INSTANCE_INFO_DETAIL_HEADER"] = "%s, dificultad %s:"
+	L["INSTANCE_INFO_DETAIL_INSTANCE"] = "    ID %s, progreso %d: %s"
+	L["INSTANCE_INFO_DETAIL_INSTANCE2"] = "    Progreso %d: %s"
+	L["INSTANCE_INFO_NOLOCKOUT"] = "Nadie de tu banda tiene bloqueos de banda."
+	L["INSTANCE_INFO_STATS_DENIED"] = "Rechazó la petición: %s"
+	L["INSTANCE_INFO_STATS_AWAY"] = "Ausente: %s"
+	L["INSTANCE_INFO_STATS_NO_RESPONSE"] = "No tiene instalada una versión reciente de "..L.DBM..": %s"
+	L["INSTANCE_INFO_RESULTS"] = "Resultado de la búsqueda de IDs de instancia. Una instancia puede salir más de una vez si en la banda hay jugadores con el cliente en otro idioma."
+	L["INSTANCE_INFO_SHOW_RESULTS"] = "Faltan por responder: %s"
+	L["OVERRIDE_ACTIVATED"] = "El líder de banda activó una configuración forzada para este encuentro"
+end

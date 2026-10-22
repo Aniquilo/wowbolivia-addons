@@ -180,3 +180,11 @@ L:SetMiscLocalization({
 	DBM_VASHJ_YELL_PHASE3	= "Os vendrá bien cubriros.",
 	LootMsg					= "([^%s]+).*Hitem:(%d+)"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Hydross")
+	L:SetTimerLocalization({
+		["TimerMark"] = "Siguiente %s : %s",
+	})
+end

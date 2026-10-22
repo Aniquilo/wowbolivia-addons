@@ -22,3 +22,14 @@ L:SetGeneralLocalization({
 L:SetMiscLocalization({
 	DBM_DOOMW_EMOTE_ENRAGE	= "¡%s se enfurece!"--Probalby won't be used, at least not long. Once spellid replaces it
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Quest")
+	L:SetGeneralLocalization({
+		["name"] = "Misión",
+	})
+	L:SetOptionLocalization({
+		["Timers"] = "Mostrar temporizadores de algunas misiones de escolta",
+	})
+end

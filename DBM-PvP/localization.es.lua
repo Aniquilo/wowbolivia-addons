@@ -188,3 +188,11 @@ L:SetMiscLocalization({
 	GoblinBrokenAlliance	= "¿Ya está rota? No pasa nada. No es nada que no pueda arreglar.",
 	GoblinBrokenHorde		= "¿Está estropeada otra vez? La arreglaré... pero no esperes que la garantía cubra esto."
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("AlteracValley")
+	L:SetOptionLocalization({
+		["TimerBoss"] = "Mostrar el tiempo que le queda al jefe",
+	})
+end

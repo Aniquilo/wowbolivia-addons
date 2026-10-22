@@ -1613,3 +1613,41 @@ L = DBM:GetModLocalization(489)
 L:SetGeneralLocalization({
 	name		= "Jefe Ukorz Cabellarena"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("GeneralDrakkisath")
+	L:SetGeneralLocalization({
+		["name"] = "General Drakkisath",
+	})
+end
+do
+	local L = DBM:GetModLocalization("JandiceBarov")
+	L:SetGeneralLocalization({
+		["name"] = "Jandice Barov",
+	})
+end
+do
+	local L = DBM:GetModLocalization("DoctorTheolenKrastinov")
+	L:SetGeneralLocalization({
+		["name"] = "Doctor Theolen Krastinov",
+	})
+end
+do
+	local L = DBM:GetModLocalization("LordAlexeiBarov")
+	L:SetGeneralLocalization({
+		["name"] = "Lord Alexei Barov",
+	})
+end
+do
+	local L = DBM:GetModLocalization("LadyIlluciaBarov")
+	L:SetGeneralLocalization({
+		["name"] = "Lady Illucia Barov",
+	})
+end
+do
+	local L = DBM:GetModLocalization("DextrenWard")
+	L:SetGeneralLocalization({
+		["name"] = "Dextren Tutor",
+	})
+end

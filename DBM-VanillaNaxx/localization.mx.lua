@@ -406,3 +406,26 @@ L:SetMiscLocalization({
 	setMissing	= "¡ATENCIÓN! El desequipamiento / equipamiento automático de armas de DBM no funcionará hasta que cree un equipamiento llamado pve",
 	EqUneqLineDescription	= "Equipar/desequipar automático"
 })
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+do
+	local L = DBM:GetModLocalization("Loatheb-Vanilla")
+	L:SetOptionLocalization({
+		["CorruptedSorting"] = "Orden del marco de información para $spell:55593",
+		["Alphabetical"] = "Orden alfabético",
+		["Duration"] = "Ordenar por duración",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Thaddius-Vanilla")
+	L:SetOptionLocalization({
+		["TwoCamp"] = "Mostrar flechas (estrategia normal de \"2 campamentos\" cruzando)",
+	})
+end
+do
+	local L = DBM:GetModLocalization("Sapphiron-Vanilla")
+	L:SetMiscLocalization({
+		["AirPhase"] = "¡Sapphiron se eleva en el aire!",
+		["LandingPhase"] = "¡Sapphiron reanuda su ataque!",
+	})
+end
