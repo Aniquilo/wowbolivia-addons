@@ -1,0 +1,19 @@
+## Interface: 30300
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/Bunny67/Details-WotLK @ 97e1cac2e4
+## Title: Details!: Encounter Breakdown (plugin) - [|cff5aa9ffWoW Bolivia|r]
+## Notes: Show detailed information about a boss encounter. Also provide damage per phase, graphic charts, easy weakauras creation.
+## RequiredDeps: Details
+## OptionalDeps: Ace3
+## SavedVariablesPerCharacter: EncounterDetailsDB
+
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+enUS.lua
+ptBR.lua
+frames.lua
+
+Details_EncounterDetails.lua

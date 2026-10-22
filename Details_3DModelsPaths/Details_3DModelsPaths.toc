@@ -1,0 +1,14 @@
+## Interface: 30300
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/Bunny67/Details-WotLK @ 97e1cac2e4
+## Title: Details! 3D Model Viewer - [|cff5aa9ffWoW Bolivia|r]
+## Notes: When the 3d models option is enabled, this tool is used to select which model will be used on the window's rows.
+## DefaultState: Disabled
+## LoadOnDemand: 1
+## Dependencies: Details
+## X-Curse-Packaged-Version: r267
+## X-Curse-Project-Name: Details!
+## X-Curse-Project-ID: details
+## X-Curse-Repository-ID: wow/details/mainline
+
+Details_3DModelsPaths.lua

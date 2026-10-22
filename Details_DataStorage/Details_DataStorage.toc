@@ -1,0 +1,11 @@
+## Interface: 30300
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/Bunny67/Details-WotLK @ 97e1cac2e4
+## Title: Details!: Storage - [|cff5aa9ffWoW Bolivia|r]
+## Notes: Stores information for Details! Damage Meter
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: Details
+## SavedVariables: DetailsDataStorage
+
+Details_DataStorage.lua
