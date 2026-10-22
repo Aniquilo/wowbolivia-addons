@@ -177,6 +177,15 @@ for (const extra of [
     version ||= tocField(toc, "Version");
     firmar(toc, "");
   }
+  writeFileSync(join(paquete, "LEEME.md"), [
+    `# ${extra.titulo} · paquete de WoW Bolivia`, "", extra.resumen, "",
+    "| | |", "|---|---|",
+    `| Autor original | ${autor || "—"} |`,
+    `| Versión | ${version || "—"} |`,
+    `| Carpetas para Interface/AddOns | ${carpetas.join(", ")} |`, "",
+    "Paquete mantenido por WoW Bolivia: el título del .toc lleva la etiqueta \"[WoW Bolivia]\". El mérito es de su autor original.", "",
+  ].join("
+"));
   catalogo.push({ ...extra, repo: "", autor, version, carpetas, origen_commit: "", origen_fecha: "" });
   console.log(`${extra.carpeta}: ${carpetas.join(", ")}`);
 }
