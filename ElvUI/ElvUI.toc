@@ -1,0 +1,21 @@
+## Interface: 30300
+## Author: Elv, Bunny
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/ElvUI-WotLK/ElvUI @ 58ea24f797
+## Version: 6.09
+## Title: |cff1784d1E|r|cffe5e3e3lvUI|r - [|cff5aa9ffWoW Bolivia|r]
+## Notes: User Interface replacement AddOn for World of Warcraft.
+## SavedVariables: ElvDB, ElvPrivateDB
+## SavedVariablesPerCharacter: ElvCharacterDB
+## OptionalDeps: Blizzard_DebugTools, SharedMedia, Tukui, ButtonFacade
+## X-oUF: ElvUF
+
+Developer\Load_Developer.xml
+Libraries\Load_Libraries.xml
+Init.lua
+Locales\Load_Locales.xml
+Media\Load_Media.xml
+Settings\Load_Config.xml
+Core\Load_Core.xml
+Layout\Load_Layout.xml
+Modules\Load_Modules.xml
