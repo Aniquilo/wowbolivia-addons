@@ -231,4 +231,6 @@ AtrL["Spanish translation courtesy of %s"] = "Traducción a español por cortes�
 
 
 end
- 
+
+-- WoW Bolivia: los clientes esMX usan la traducción de esES
+AtrBuildLTable_esMX = AtrBuildLTable_esES
