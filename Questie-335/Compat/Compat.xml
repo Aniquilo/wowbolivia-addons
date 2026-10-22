@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <Script>QuestieLoader:StampLoadBoundary("Compat/Compat.xml")</Script>
+
+    <Script file="Compat.lua"/>
+    <Script file="Timers.lua"/>
+    <Script file="Calendar.lua"/>
+    <Script file="ProtectedCall.lua"/>
+    <Script file="Corrections.lua"/>
+    <Script file="FactionId.lua"/>
+    <Script file="QuestTag.lua"/>
+    <Script file="QuestReward.lua"/>
+    <Script file="QuestLog.lua"/>
+    <Script file="QuestResets.lua"/>
+    <Script file="QuestRewardCompletion.lua"/>
+    <Script file="Events.lua"/>
+    <Script file="UiMapData.lua"/>
+    <Script file="ExplorationMasks.lua"/>
+    <Script file="Map.lua"/>
+    <Script file="MapExploration.lua"/>
+    <Script file="TomTom.lua"/>
+    <Script file="HBD.lua"/>
+    <Script file="UI.lua"/>
+</Ui>
