@@ -59,3 +59,12 @@ L["The quest/gossip text doesn't vanish when you stop interacting with the NPC o
 L["The regular talking head frame appears in the same place as Immersion when you're not interacting with anything and on top of Immersion if they are visible at the same time."] = "El cuadro de cabeza parlante aparece en el mismo lugar que Immersion cuando no interactúas con nada y encima de Immersion si ambos son visibles al mismo tiempo."
 L["Tooltip"] = "Descripción emergente"
 L["Use your primary mouse button to read through text, accept/turn in quests and select the best available gossip option."] = "Utiliza el botón primario del ratón para leer el texto, aceptar/entregar misiones y seleccionar las mejores opciones de texto flotante."
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["Disable overlay backgrounds"] = "Desactivar fondos superpuestos"
+	L["Hide tooltip"] = "Ocultar descripción emergente"
+	L["Show every time when you interacting with the NPC, if disabled and there is only non-gossip option then go to it directly."] = "Mostrar siempre al hablar con un PNJ; si está desactivado y solo hay una opción que no es de conversación, ir directamente a ella."
+	L["Support for correct adjustment of portrait models and animations if player uses patches of HD models"] = "Ajuste correcto de los modelos y animaciones del retrato si el jugador usa parches de modelos HD."
+	L["When a quest is supertracked (clicked on in the objective tracker, or set automatically by proximity), the quest text will play if nothing else is obstructing it."] = "Cuando una misión está seguida (clic en el rastreador de objetivos o fijada automáticamente por cercanía), se reproducirá su texto si nada lo impide."
+end
