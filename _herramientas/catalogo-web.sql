@@ -213,9 +213,9 @@ INSERT INTO addons (name, category, version, language, author, summary, descript
 Autor original: Mirrikat45.
 Licencia: Del autor.
 Carpetas: BonusScanner, GearScore.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/gearscore', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '1f94a4cb5967442866ceea8a19e5c9a5f1bb124a', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/gearscore', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '9cc0d79ab45bb0ef71804b0c82a2639464acf852', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'GearScore');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1f94a4cb5967442866ceea8a19e5c9a5f1bb124a', version = '3.1.17 - Release', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '9cc0d79ab45bb0ef71804b0c82a2639464acf852', version = '3.1.17 - Release', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'GearScore' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- IDs
@@ -224,7 +224,7 @@ INSERT INTO addons (name, category, version, language, author, summary, descript
 Autor original: Aegir.
 Licencia: Del autor.
 Carpetas: IDs.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/ids', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'ad1af6ec0b1315ff83713e341bdc0177e3d82678', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/ids', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '0a0ec9d2b18f8d3838b0a4814f8d15fe4017c7d2', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'IDs');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'ad1af6ec0b1315ff83713e341bdc0177e3d82678', version = '1.0.2', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '0a0ec9d2b18f8d3838b0a4814f8d15fe4017c7d2', version = '1.0.2', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'IDs' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
