@@ -34,7 +34,7 @@ end
 local function handleAura(tooltip, ...)
 	local _, rank, _, _, _, _, _, _, _, _, id = UnitAura(...)
 	if id and rank then
-		addLine(tooltip, "Spell ID", id, rank)
+		addLine(tooltip, "ID de hechizo", id, rank)
 	end
 end
 
@@ -48,7 +48,7 @@ local function handleItemRef(link)
 		end
 		if id then
 			_, rank = GetSpellInfo(id)
-			addLine(ItemRefTooltip, "Spell ID", id, rank)
+			addLine(ItemRefTooltip, "ID de hechizo", id, rank)
 		end
 	elseif link:find("^achievement:") then
 		local pos = link:find(":") + 1
@@ -56,7 +56,7 @@ local function handleItemRef(link)
 		if pos and endpos then
 			local id = link:sub(pos, endpos)
 			if id then
-				addLine(ItemRefTooltip, "Achievement ID", id)
+				addLine(ItemRefTooltip, "ID de logro", id)
 			end
 		end
 	elseif link:find("^quest:") then
@@ -66,8 +66,8 @@ local function handleItemRef(link)
 			local id = link:sub(pos, endpos)
 			local level = link:sub(endpos + 2)
 			if id and level then
-				level = "Level "..level
-				addLine(ItemRefTooltip, "Quest ID", id, level)
+				level = "Nivel "..level
+				addLine(ItemRefTooltip, "ID de misión", id, level)
 			end
 		end
 	elseif link:find("^item:") then
@@ -77,8 +77,8 @@ local function handleItemRef(link)
 			local id = link:sub(pos, endpos)
 			local _, _, _, level = GetItemInfo(link)
 			if id and level then
-				level = "ItemLevel "..level
-				addLine(ItemRefTooltip, "Item ID", id, level)
+				level = "Nivel de objeto "..level
+				addLine(ItemRefTooltip, "ID de objeto", id, level)
 			end
 		end
 	elseif link:find("^unit:") then
@@ -91,12 +91,12 @@ local function handleItemRef(link)
 				if unitType == 3 then
 					local id = tonumber(guid:sub(8, 12), 16)
 					if id then
-						addLine(ItemRefTooltip, "NPC ID", id)
+						addLine(ItemRefTooltip, "ID de PNJ", id)
 					end
 				elseif unitType == 0 then
 					local id = tonumber(guid, 16)
 					if id then
-						addLine(ItemRefTooltip, "Player GUID", id)
+						addLine(ItemRefTooltip, "GUID del jugador", id)
 					end
 				end
 			end
@@ -109,7 +109,7 @@ end
 local function handleSpell(tooltip)
 	local _, rank, id = tooltip:GetSpell()
 	if id and rank then
-		addLine(tooltip, "Spell ID", id, rank)
+		addLine(tooltip, "ID de hechizo", id, rank)
 	end
 end
 
@@ -124,8 +124,8 @@ local function handleItem(tooltip, lnk)
 	if id then
 		local _, _, _, level = GetItemInfo(id)
 		if level then
-			level = "ItemLevel "..level
-			addLine(tooltip, "Item ID", id, level)
+			level = "Nivel de objeto "..level
+			addLine(tooltip, "ID de objeto", id, level)
 		end
 	end
 end
@@ -138,7 +138,7 @@ local function handleMouseover()
 	if UnitIsPlayer("mouseover") then
 		local guid = tonumber(UnitGUID("mouseover"), 16)
 		if guid ~= 0 then
-			addLine(GameTooltip, "Player GUID", guid)
+			addLine(GameTooltip, "GUID del jugador", guid)
 		end
 	else
 		local guid = UnitGUID("mouseover")
@@ -152,7 +152,7 @@ local function handleMouseover()
 		if id and id ~= 0 then
 			local str = ""
 			if unitType == 3 then
-				str = "NPC ID"
+				str = "ID de PNJ"
 			elseif unitType == 4 then
 				str = "Pet GUID"
 			elseif unitType == 5 then
