@@ -56,3 +56,31 @@ if not L then return end
 --[[Translation missing --]]
 --[[ L["STRING_UNKNOWN"] = ""--]]
 
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["STRING_DATAINVALID"] = "No se pudo cargar este segmento: los datos están dañados."
+	L["STRING_ELAPSED"] = "Tiempo transcurrido"
+	L["STRING_INCOMBAT"] = "La línea de tiempo está registrando datos del combate actual."
+	L["STRING_NODATA"] = "La línea de tiempo no tiene nada que mostrar ahora."
+	L["STRING_OPTIONS"] = "Opciones"
+	L["STRING_OPTIONS_BGCOLOR"] = "Color de fondo"
+	L["STRING_OPTIONS_BGCOLOR_DESC"] = "Elige el color de fondo"
+	L["STRING_OPTIONS_MAXSEGMENTS"] = "Máximo de segmentos"
+	L["STRING_OPTIONS_MAXSEGMENTS_DESC"] = "Límite de segmentos guardados"
+	L["STRING_OPTIONS_TITLE"] = "Opciones de la línea de tiempo"
+	L["STRING_OPTIONS_WINDOWCOLOR"] = "Escala de la ventana"
+	L["STRING_OPTIONS_WINDOWCOLOR_DESC"] = "Elige el tamaño de la ventana"
+	L["STRING_PLUGIN_NAME"] = "Línea de tiempo"
+	L["STRING_RESET"] = "Reiniciar"
+	L["STRING_SEARCH"] = "Filtro:"
+	L["STRING_SECONDS"] = "Segundos"
+	L["STRING_SELECT_SEGMENT"] = "Segmento:"
+	L["STRING_SOURCE"] = "Origen"
+	L["STRING_SPELLICONS"] = "Iconos de hechizos"
+	L["STRING_TARGET"] = "Objetivo"
+	L["STRING_TIME"] = "A las"
+	L["STRING_TOOLTIP"] = "Mostrar datos de la línea de tiempo"
+	L["STRING_TYPE"] = "Tipo:"
+	L["STRING_TYPE_COOLDOWN"] = "Reutilización"
+	L["STRING_TYPE_DEBUFF"] = "Perjuicio"
+end
