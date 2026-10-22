@@ -1,0 +1,15 @@
+## Interface: 30300
+## Title: Bagnon - [|cff5aa9ffWoW Bolivia|r]
+## Author: Tuller
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/RichSteini/Bagnon-3.3.5 @ 27a08f8981
+## Notes: Single window displays for your inventory, bank, and keys
+## SavedVariables: BagnonGlobalSettings
+## SavedVariablesPerCharacter: BagnonFrameSettings
+## Version: 2.13.3
+## OptionalDeps: Ace3, Bagnon_Forever, Bagnon_Armory, LibItemSearch
+embeds.xml
+localization.xml
+main.lua
+utility.xml
+components.xml

@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Bagnon Guild Bank - [|cff5aa9ffWoW Bolivia|r]
+## Author: Tuller
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/RichSteini/Bagnon-3.3.5 @ 27a08f8981
+## Notes: Single window display for your guild bank
+## Version: 1.0.0
+## RequiredDeps: Bagnon
+## LoadOnDemand: 1
+## DefaultState: disabled 
+main.lua
+components.xml
