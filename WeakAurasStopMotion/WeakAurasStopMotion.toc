@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: WeakAuras Stop Motion Textures - [|cff5aa9ffWoW Bolivia|r]
+## Author: Infus
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/NoM0Re/WeakAuras-WotLK @ 8a7f4b0b7e
+## Notes: Textures for Stop Motion
+## X-Category: Interface Enhancements
+## X-Part-Of: WeakAuras
+## DefaultState: Enabled
+## Dependencies: WeakAuras
+
+StopMotionTextures.lua

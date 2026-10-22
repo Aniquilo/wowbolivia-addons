@@ -1,0 +1,21 @@
+## Interface: 30300
+## Title: WeakAuras Model Paths - [|cff5aa9ffWoW Bolivia|r]
+## Author: The WeakAuras Team
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/NoM0Re/WeakAuras-WotLK @ 8a7f4b0b7e
+## Version: 5.22.1
+## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
+## Notes: Model paths for WeakAuras
+## Notes-esES: Las rutas de modelos para WeakAuras
+## Notes-esMX: Las rutas de modelos para WeakAuras
+## Notes-deDE: 3D-Model Pfade für WeakAuras
+## Notes-ruRU: Ссылки на файлы моделей WeakAuras
+## Notes-zhTW: WeakAuras的模組路徑
+## X-Category: Interface Enhancements
+## X-Part-Of: WeakAuras
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: WeakAuras, WeakAurasOptions
+
+ModelPaths.lua
