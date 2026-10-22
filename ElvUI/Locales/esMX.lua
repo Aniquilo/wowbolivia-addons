@@ -328,3 +328,32 @@ Opciones:
   Shift + Clic Derecho - Ocultar los fijadores temporalmente.
   Ctrl + Clic Derecho - Restablece la posición de los fijadores a los valores por defecto.
 ]=]
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["ABOVE_THREAT_FORMAT"] = "%s: %.0f%% [%.0f%% por encima de |cff%02x%02x%02x%s|r]"
+	L["Auras"] = "Auras"
+	L["BG"] = "CB"
+	L["BGL"] = "LCB"
+	L["BoE"] = "LAE"
+	L["BoU"] = "LAU"
+	L["Coords"] = "Coordenadas"
+	L["Data To: %s"] = "Datos para: %s"
+	L["Export Now"] = "Exportar ahora"
+	L["Farm Mode"] = "Modo granja"
+	L["Hit"] = "Golpe"
+	L["INCOMPATIBLE_ADDON"] = "El addon %s no es compatible con el módulo %s de ElvUI. Elige si quieres desactivar el addon o el módulo de ElvUI."
+	L["If you have an icon or aurabar that you don't want to display simply hold down shift and right click the icon for it to disapear."] = "Si hay un icono o barra de aura que no quieres ver, mantén pulsado Mayús y haz clic derecho en el icono para que desaparezca."
+	L["Import Now"] = "Importar ahora"
+	L["LOGIN_MSG"] = "Bienvenido a %sElvUI|r versión %s%s|r. Escribe /ec para abrir el menú de configuración. Si necesitas ayuda técnica visítanos en https://github.com/ElvUI-WotLK/ElvUI o entra a nuestro Discord: https://discord.gg/UXSc7nt"
+	L["Movers"] = "Movedores"
+	L["On screen positions for different elements."] = "Posición en pantalla de los distintos elementos."
+	L["PvP"] = "JcJ"
+	L["Reload UI"] = "Recargar interfaz"
+	L["Right Click:"] = "Clic derecho:"
+	L["Show BG Texts"] = "Mostrar textos de CB"
+	L["You are going to copy settings for "] = "Vas a copiar la configuración de "
+	L["You are going to copy settings for "] = "Vas a copiar la configuración de "
+	L["You don't have enough money to repair all items."] = "No tienes suficiente dinero para reparar todos los objetos."
+	L["You still have ElvUI_Config installed. ElvUI_Config has been renamed to ElvUI_OptionsUI, please remove it."] = "Todavía tienes instalado ElvUI_Config. Ahora se llama ElvUI_OptionsUI: bórralo."
+end
