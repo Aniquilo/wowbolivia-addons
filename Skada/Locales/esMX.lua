@@ -800,3 +800,13 @@ L["Thorim"] = "Thorim"
 L["Twin Val'kyr"] = "Gemelas Val'kyr"
 L["Valithria Dreamwalker"] = "Valithria Caminasue\195\177os"
 L["Yogg-Saron"] = "Yogg-Saron"
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["HoT"] = "HoT"
+	L["DoT"] = "DoT"
+	L["SPEC_102"] = "Equilibrio"
+	L["SPEC_103"] = "Combate feral"
+	L["SPEC_262"] = "Elemental"
+	L["[General]"] = "General"
+end
