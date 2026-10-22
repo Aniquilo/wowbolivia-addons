@@ -932,7 +932,7 @@ elseif locale == 'ruRU' then
     L["When shift is held down"] = "Когда кнопка Shift нажата"
 
     ------------------------ esES ------------------------
-elseif locale == 'esES' then
+elseif locale == 'esES' or locale == 'esMX' then
     L["Adjust the maximum height of the bags, relative to screen size."] = "Ajustar al maximo la altura de las bolsas, en relación a el tamaño de la pantalla."
     L["Allow you manually redefine the section in which an item should be put. Simply drag an item on the section title."] = "Permite redefinir manualmente la sección en la que un objeto debe situarse. Solo arrastra un objeto dentro del título de la sección"
     L["Always"] = "Siempre"
