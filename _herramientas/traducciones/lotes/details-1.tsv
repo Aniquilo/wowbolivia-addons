@@ -1,0 +1,156 @@
+0	Alfa
+1	Ascendente
+2	Auras y zonas de vacío
+5	Observador
+6	Banda
+7	Decir
+8	Susurrar
+9	Susurrar al objetivo de la reutilización
+10	Gritar
+11	|cFFFFCC22Clic|r: |cFFFFEE00informar|r
+12	|cFFFFCC22Mayús+clic|r: |cFFFFEE00modo ventana|r
+13	Color
+14	Crear aura
+15	Tiempo de actividad
+16	Muestra los resultados de actividad de cada jugador de la banda.
+17	Tiempo de actividad de daño
+18	Cuánto tiempo pasó cada personaje haciendo daño.
+19	Tiempo de actividad de sanación
+20	Cuánto tiempo pasó cada personaje sanando.
+21	Control de masas hecho
+22	Control de masas recibido
+23	Daño a objetivos con otras marcas
+24	Muestra el daño hecho a los objetivos marcados con cualquier otra marca.
+25	Daño a escudos
+26	Daño a objetivos marcados con calavera
+27	Muestra el daño hecho a los objetivos marcados con calavera.
+28	Desc.:
+29	Daño recibido por hechizo
+30	Muestra el daño de los hechizos enemigos contra tu grupo.
+31	Daño total dinámico
+32	Archivo de aspecto personalizado
+34	Descendente
+35	Descartar
+36	 (DoT)
+37	DPS
+38	Activado
+40	Abre un ticket o deja un mensaje en la página de Details!.
+41	Escribe en nuestro hilo del foro de mmo-champion.
+42	Elige tu sitio de comunidad preferido:
+43	Enviar comentarios
+44	Deja un comentario en la página del proyecto Details!.
+45	Temporizadores de BigWigs
+46	Lista los temporizadores de BigWigs
+47	Temporizadores de DBM
+48	Lista los temporizadores de Deadly Boss Mods
+49	Enemigos
+50	Lista los enemigos del combate actual.
+51	Mascotas
+52	Lista las mascotas del combate actual.
+53	Jugadores
+54	Lista los jugadores del combate actual.
+55	\"Activa los complementos de Details! con nombres de bandas en Menú (Esc) > Addons, por ejemplo Details: Tomb of Sargeras.\"
+56	Nombre de la barra
+57	Nombre del lanzador
+58	Nombre del encuentro
+59	Nombre del enemigo
+60	Nombre del dueño
+61	Nombre de la mascota
+62	Nombre del jugador
+63	Texto de la barra
+64	Lanzador
+65	Clase
+66	Crear aura
+67	ID del encuentro
+68	Nombre del encuentro
+69	Evento
+70	Marca
+72	Icono
+74	Índice
+75	Nombre
+77	Dueño
+78	Escuela
+79	Temporizador
+80	Explora hechizos y temporizadores de módulos de jefes para crear auras con '|cFFFFFF00Crear aura|r'.
+81	Bienvenido a la Forja de Details!
+82	Ejemplo de un aura con temporizadores de módulos de jefes:
+83	General
+84	Jefe
+85	No se pudo abrir '|cFFFFFF00Details! Storage|r'; ¿quizá el addon está desactivado?
+86	Dificultad
+87	Hermandad
+88	Base de jugadores
+89	Individual
+90	Jugador
+91	Todos los jugadores
+92	Banda
+93	Rol
+94	Mostrar historial
+95	Mostrar ranking de la hermandad
+96	Sincronizar con la hermandad
+97	Details! guarda el daño y la sanación de cada encuentro con jefe que haces con tu hermandad.\\n\\nRevisa el historial marcando '|cFFFFFF00Mostrar historial|r' y verás los resultados de todos los combates.\\n Si eliges '|cFFFFFF00Mostrar ranking de la hermandad|r', verás las mejores marcas del jefe elegido.\\n\\nSi usas esta herramienta por primera vez o te perdiste un día de banda, pulsa el botón '|cFFFFFF00Sincronizar con la hermandad|r'.
+98	¡Jefe derrotado! Ver ranking
+99	SPS
+100	Evasión
+101	Comparar
+102	Resumen
+103	Haz clic en la pestaña |cFFFFDD00Comparar|r para ver la comparación entre jugadores de la misma clase.
+104	Chat de instancia
+105	se alcanzó el máximo de ventanas; puedes cambiar este límite en el panel de opciones. También puedes volver a abrir ventanas cerradas desde el menú de ventana (#).
+106	Marcador
+107	Marcador #%s
+108	Reiniciar segmentos
+109	Bajar todas las ventanas
+110	Subir todas las ventanas
+111	Desplazamiento
+112	Segmentos
+113	Mostrar/ocultar ventana #%s
+114	Mostrar/ocultar todas
+115	Ventanas
+116	Informar de los datos de la ventana #%s.
+117	Informar de los datos
+118	última reutilización usada
+119	De izquierda a derecha
+120	Máx.
+121	Control de ventanas
+122	|cFFCFCFCFclic izquierdo|r: mostrar/ocultar ventanas
+123	Cerrar todas
+124	Ocultar icono del minimapa
+125	Mín.
+128	Reflejo exacto
+129	Lista de hechizos
+131	Multigolpe
+132	Golpes de multigolpe
+134	¿Problemas después de una actualización? Prueba el comando '/details reinstall'.
+135	Novedades de esta versión
+136	No
+137	sin reutilizaciones usadas
+139	Sistema numérico
+140	el que usan los países de Asia oriental; separa en miles y en decenas de miles.
+141	Occidental
+142	el más común; separa en miles y millones.
+143	Elige qué sistema numérico usar
+144	Asia oriental
+145	Mano izquierda
+147	Modelo 3D inferior:
+148	Activa o desactiva un marco con modelo 3D detrás de las barras.
+149	Elige qué modelo se usa en la barra del modelo inferior.
+150	Elegir modelo
+152	Modelo 3D superior:
+153	Activa o desactiva un marco con modelo 3D encima de las barras.
+154	Elige qué modelo se usa en la barra del modelo superior.
+155	Usar en todos los personajes
+156	Se usa el mismo perfil en todos los personajes. Puedes cambiarlo en cualquier personaje eligiendo otro perfil existente.
+157	Mostrar jugadores fuera del grupo
+158	En el modo Estándar predeterminado, muestra a los personajes de jugadores aunque no estén en tu grupo.
+159	Animar barras
+160	Activa las animaciones de todas las barras.
+161	Animar barra de desplazamiento
+162	Al activarlo, la barra de desplazamiento se anima al mostrarse u ocultarse.
+163	Con especialización de daño, esta ventana muestra el atributo o complemento elegido.
+164	Con especialización de sanador, esta ventana muestra el atributo o complemento elegido.
+165	Con especialización de tanque, esta ventana muestra el atributo o complemento elegido.
+166	Después de un intento fallido o una derrota en un encuentro de banda, esta ventana muestra automáticamente este atributo.
+167	Elegir avatar
+168	Identidad:
+169	Los avatares también se envían a los miembros de tu hermandad y se muestran arriba en las descripciones y en la ventana de detalles del jugador.

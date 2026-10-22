@@ -1,0 +1,7 @@
+{
+ "Immersion/Locale/enUS.lua#|L|Disable overlay backgrounds": "\"Disable overlay backgrounds\"",
+ "Immersion/Locale/enUS.lua#|L|Hide tooltip": "\"Hide tooltip\"",
+ "Immersion/Locale/enUS.lua#|L|Show every time when you interacting with the NPC, if disabled and there is only non-gossip option then go to it directly.": "\"Show every time when you interacting with the NPC, if disabled and there is only non-gossip option then go to it directly.\"",
+ "Immersion/Locale/enUS.lua#|L|Support for correct adjustment of portrait models and animations if player uses patches of HD models": "\"Support for correct adjustment of portrait models and animations if player uses patches of HD models.\"",
+ "Immersion/Locale/enUS.lua#|L|When a quest is supertracked (clicked on in the objective tracker, or set automatically by proximity), the quest text will play if nothing else is obstructing it.": "\"When a quest is supertracked (clicked on in the objective tracker, or set automatically by proximity), the quest text will play if nothing else is obstructing it.\""
+}

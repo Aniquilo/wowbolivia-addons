@@ -1,0 +1,146 @@
+170	Esta textura está debajo de la textura superior y siempre mide lo mismo que el ancho de la ventana.
+171	Mostrarme siempre
+172	Barra del jugador:
+173	Al activarlo, tu barra se muestra siempre aunque no estés entre los mejores.
+174	Dirección de crecimiento de las barras
+175	Las barras crecen desde arriba o desde abajo de la ventana.
+176	Elige el paquete de iconos.
+177	Textura de la parte superior de la barra.
+179	Orientación de las barras
+180	Dirección en la que se rellenan las barras.
+182	Archivo de textura personalizada
+183	Orden de las barras
+184	Ordena las barras de mayor a menor o de menor a mayor.
+185	Actualizaciones rápidas:
+186	Al activarlo, el DPS y el SPS se actualizan un poco más rápido de lo normal.
+187	Mostrar todo
+189	Campos de batalla:
+190	Segmento único
+191	Se crea un solo segmento al empezar el campo de batalla y dura hasta que termina.
+192	Cambiar colores de clase
+193	Elige colores nuevos para las clases.
+194	Cambiar color
+195	Notas de la versión
+196	Instala el complemento Chart Viewer para ver gráficos personalizados.
+197	Cambiar colores de clase
+198	Clic derecho para restablecer
+199	Borrar solos los segmentos de bichos
+200	Al activarlo, los segmentos de limpiar bichos se borran solos después de otros dos segmentos.
+201	Clic para abrir los menús
+203	Fuera de una instancia
+204	Dentro de una instancia
+205	Depuración de banda
+206	¿Quieres borrar los datos?
+207	Data Broker:
+208	Daño hecho por el jugador
+209	DPS efectivo del jugador
+210	Puesto en daño
+211	Diferencia de daño
+212	Sanación hecha por el jugador
+213	SPS efectivo del jugador
+214	Puesto en sanación
+215	Diferencia de sanación
+216	Tiempo de combate transcurrido
+218	Crear datos por tiempo para gráficos
+219	En este panel puedes crear capturas de datos personalizadas para hacer gráficos.
+220	Cantidad de eventos de muerte
+222	Sanación mínima en el registro de muertes
+224	Desactivar el menú "Todas las vistas"
+225	Al activarlo, el clic derecho en la barra de título muestra tus marcadores.
+226	Desactivar resaltado de barras
+227	Las barras no se iluminan al pasar el ratón por encima.
+228	Las ventanas ya no se agrupan al ponerlas una junto a otra.
+229	Desactivar botones de tamaño
+230	Los botones de tamaño, bloquear/desbloquear y desagrupar no aparecen al pasar el ratón por una ventana.
+231	Al activarlo, el botón de reiniciar no funciona; hay que reiniciar los datos desde su menú.
+232	Desactivar botón de estirar
+233	El botón de estirar no se muestra con esta opción activada.
+234	Ahora no se puede reiniciar con este botón; elige la opción en su menú.
+235	Daño recibido avanzado
+236	El daño recibido siempre se muestra en el modo '|cFFFFFF00Todo|r'.
+237	Borrar datos
+239	A mano
+240	Preguntar
+241	Automático
+242	Borrar gráficos
+243	Al desconectarte se borran todos los datos de combate reunidos para los gráficos.
+244	Widgets externos
+245	Estas opciones controlan el comportamiento de varios widgets de otros addons.
+246	General:
+248	Ignorar apodos y avatares
+249	Al activarlo, se ignoran los apodos y avatares de los demás miembros de la hermandad.
+250	Seguimiento del nivel de objeto:
+252	Activado
+253	Aspecto
+254	Gestionar marcadores
+256	Cuántos segmentos quieres guardar.
+257	Temporizador del encuentro
+258	Al activarlo, se muestra un cronómetro a la izquierda del texto.
+259	Oculta los botones cuando el ratón sale de la ventana y los vuelve a mostrar cuando vuelves a usarla.
+260	Ocultar botones automáticamente
+261	Fuente del texto de los menús
+262	Cambia la fuente de todos los menús.
+263	Ignorar barras
+264	Al activarlo, este mecanismo no afecta a las filas de esta ventana.
+265	Cambia la posición en el eje X.
+266	Cambia la posición en el eje Y
+267	Sombra
+268	Añade un borde de sombra fino a todos los botones.
+269	Espaciado
+270	Controla la distancia entre los botones.
+271	Micropantallas:
+272	Bloquear micropantallas
+273	Al bloquearlas, no reaccionan al pasar el ratón ni a los clics.
+274	Elige la micropantalla que quieres mostrar en este lado.
+275	Configura esta micropantalla.
+276	Mostrar u ocultar esta micropantalla
+278	Micropantallas arriba
+279	Coloca las micropantallas arriba o abajo de la ventana.
+280	Las micropantallas no se muestran porque la barra de estado está desactivada.
+281	Elige qué pasa al hacer clic izquierdo en el icono del minimapa.
+282	Mostrar/ocultar ventanas
+283	Editor de texto de las filas
+284	Abrir editor de texto
+285	Jefes de mazmorra
+286	Los segmentos con jefes de mazmorra se suman a los datos totales.
+287	Bichos de mazmorra
+288	Los segmentos de limpiar bichos de mazmorra se suman a los datos totales.
+289	Borrar al desconectarse
+290	Al activarlo, los datos totales se borran solos al desconectar el personaje.
+291	Borrar al empezar Mítica+
+292	Al activarlo, los datos totales se borran solos al empezar una nueva Mítica+.
+293	Borrar con un nuevo jefe de banda
+294	Al activarlo, los datos totales se borran solos al enfrentarte a otro jefe de banda.
+295	Bichos de banda
+296	Los segmentos de limpiar bichos de banda se suman a los datos totales.
+297	Paneles:
+300	General:
+301	Arena
+302	Mazmorra
+303	Al activarlo, esta configuración se aplica cuando tu banda coincide con el tipo de banda elegido.
+304	Borrar solos los segmentos del mundo
+305	Borra solos los segmentos de combate al aire libre.
+306	Mítico
+307	Tipo de banda en el que pueden cambiar solas distintas opciones.
+308	Al marcarlo, los botones de los complementos se muestran a la derecha de los botones del menú.
+309	Complementos
+310	Complementos individuales
+311	Complementos de la barra de herramientas
+312	Ponle un nombre a tu preajuste.
+313	Este preajuste es demasiado viejo y no se puede cargar con esta versión de Details!.
+314	Elige el perfil que se usa en todos los personajes.
+315	elegiste un perfil concreto para este personaje
+324	Formato
+325	Elige el formato del texto enlazado en el canal de chat.
+326	Total / Por segundo / Porcentaje
+327	Porcentaje / Por segundo / Total
+328	Porcentaje / Total / Por segundo
+329	Restablecer valores predeterminados
+330	Opciones avanzadas de las filas
+331	Estas opciones te permiten cambiar las filas con más detalle.
+332	¡%s usado en %s!
+333	¡%s usado!
+334	Anunciar reutilizaciones:
+335	Canal
+337	Texto personalizado
+339	Cuando usas una reutilización, se envía un mensaje por el canal elegido.

@@ -49,7 +49,7 @@
     ],
     "origen_commit": "6165654fb413f4166b1c142809ae287b1227ba6a",
     "origen_fecha": "2026-08-16",
-    "rama_commit": "ded5ab269fb88ef763f3bce0b57156e012e2e874"
+    "rama_commit": "e9efa5d901f237ef64dbca35c0e8535e2ac2579e"
   },
   {
     "rama": "details",
@@ -74,7 +74,7 @@
     ],
     "origen_commit": "97e1cac2e4b5f68a3572f2f4872c9422759a1bca",
     "origen_fecha": "2021-04-12",
-    "rama_commit": "1bc11643799ccfec28f453f2d16ed9dbcdad6f02"
+    "rama_commit": "4f6099ac1dc056f4b1eea9b5ff56bddc37d9a951"
   },
   {
     "rama": "skada",
@@ -93,7 +93,7 @@
     ],
     "origen_commit": "5653a241a7a97a5988280d916ff3a9e31ec55948",
     "origen_fecha": "2024-03-23",
-    "rama_commit": "1186f5158dfbd6c10c2e252a17455aa9550778dc"
+    "rama_commit": "f9def7dee3de47ea0ff46149068c9973e8fa180e"
   },
   {
     "rama": "weakauras",
@@ -116,7 +116,7 @@
     ],
     "origen_commit": "8a7f4b0b7e419b8e07027235f9b9845b7c684c98",
     "origen_fecha": "2026-10-18",
-    "rama_commit": "4c7ee1da280c5d628d2837cdacc7f17eff091eae"
+    "rama_commit": "531c9cf71edb6f8a2bff5d7cb3031fc64840a685"
   },
   {
     "rama": "elvui",
@@ -134,7 +134,7 @@
     ],
     "origen_commit": "58ea24f7979740221389ce09685eb445723a6346",
     "origen_fecha": "2022-10-26",
-    "rama_commit": "ec7e0b9416b9f4d30e6d73d6aaed0e3302b8f997"
+    "rama_commit": "7b7f409b4a0756e01e82baf0856a2e85e55d8b51"
   },
   {
     "rama": "questie",
@@ -151,7 +151,7 @@
     ],
     "origen_commit": "d695e9048e6df8b48d36a6db9436d82ca3bbbd87",
     "origen_fecha": "2026-10-16",
-    "rama_commit": "6a7ddbb25d6e2046e349050e1848d6169d4cb4c1"
+    "rama_commit": "ca8ddb7461b684105047dbd903803d0daa14cb85"
   },
   {
     "rama": "auctionator",
@@ -168,7 +168,7 @@
     ],
     "origen_commit": "b4e3eb68dcc7cc1142b73d8a978d471bf0d4110a",
     "origen_fecha": "2023-05-14",
-    "rama_commit": "9f1860327c06dc7440fa9c094abc1e0a1dccee01"
+    "rama_commit": "c5a40268a1bc88d7c9f471ed5ae35ababf874714"
   },
   {
     "rama": "bagnon",
@@ -207,7 +207,7 @@
     ],
     "origen_commit": "d8b49ed56ddf81825ab2a4bc22c08fb7a0d59eed",
     "origen_fecha": "2025-07-09",
-    "rama_commit": "c8be427f3f26f44ad3d6fedb3fe95253f924e4bc"
+    "rama_commit": "338aeab179bb5601c7d5b2867eb749c87e9c439f"
   },
   {
     "rama": "grid2",
@@ -226,7 +226,7 @@
     ],
     "origen_commit": "fc8d5e139b9490236b6676e1d891f98bfe4b2a10",
     "origen_fecha": "2022-10-04",
-    "rama_commit": "b34220d6846a27a5b21e1658cf04bb03daf2f3fc"
+    "rama_commit": "e8768e458197a62460244bbecef15c52ab771ebc"
   },
   {
     "rama": "immersion",
@@ -243,7 +243,7 @@
     ],
     "origen_commit": "e0b208b2ae38b3ccfd2b682689021bba7523395f",
     "origen_fecha": "2024-11-06",
-    "rama_commit": "78a0a483a636f52e678c7e9d5a4c2a9fc6d37cdd"
+    "rama_commit": "84a4c2a8ffa29e897ac83f7f07651ebbb6253c21"
   },
   {
     "rama": "leatrix-maps",
@@ -294,7 +294,7 @@
     ],
     "origen_commit": "8c9969e0893f67edb373e292b5e04d83dc4e4c96",
     "origen_fecha": "2026-05-01",
-    "rama_commit": "f4f36bfe61781bba3b9099696d0d8200b4513d04"
+    "rama_commit": "7739edfd2952a2cb9b99120632ad0fa3b914bbeb"
   },
   {
     "rama": "pretty-minimap",
@@ -348,7 +348,7 @@
     ],
     "origen_commit": "d82cf926086f7cf53a1c9fcf29502ae49651ebb7",
     "origen_fecha": "2025-07-18",
-    "rama_commit": "fbf7315a5553c1e11d1c3d67d8e0e1a5f821d8b1"
+    "rama_commit": "b0bc5e316c1753eb193c96ffd224e1dad523916b"
   },
   {
     "rama": "gearscore",
@@ -367,7 +367,7 @@
     ],
     "origen_commit": "",
     "origen_fecha": "",
-    "rama_commit": "9cc0d79ab45bb0ef71804b0c82a2639464acf852"
+    "rama_commit": "edf3be195e261ca97bd0e508c6fde772c68a20f9"
   },
   {
     "rama": "ids",
@@ -385,6 +385,6 @@
     ],
     "origen_commit": "",
     "origen_fecha": "",
-    "rama_commit": "0a0ec9d2b18f8d3838b0a4814f8d15fe4017c7d2"
+    "rama_commit": "afab550cb7a8fee4a795aeffef14f3e92ba71f34"
   }
 ]

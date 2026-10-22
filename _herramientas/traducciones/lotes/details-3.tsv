@@ -1,0 +1,139 @@
+340	Lista de reutilizaciones ignoradas
+341	Elige qué reutilizaciones se ignoran.
+342	Muerte de %s (Details!)
+343	Anunciar muertes:
+344	Solo las primeras
+345	Anunciar solo las primeras X muertes del encuentro.
+346	Cantidad de golpes
+347	Al anunciar la muerte, mostrar cuántos golpes.
+348	Cuando muere un miembro de la banda, se envía al canal de banda lo que lo mató.
+349	Instancias
+351	Bandas y mazmorras
+352	Solo bandas
+353	Solo mazmorras
+354	Primer golpe
+355	Muestra en el chat (|cFFFFFF00solo para ti|r) quién dio el primer golpe, que suele ser quien empezó el combate.
+356	Ignorar reutilizaciones
+357	Información extra:
+358	Uso de poción previa
+359	Al activarlo, después de un encuentro de banda muestra en tu chat (|cFFFFFF00solo para ti|r) quién usó una poción antes del pull.
+360	¡%s interrumpido!
+361	Anunciar interrupciones:
+362	Siguiente: %s
+363	Canal
+365	Texto personalizado
+367	Siguiente jugador
+368	Si hay una secuencia de interrupciones, pone el nombre del jugador que hace la siguiente.
+369	Cuando interrumpes un hechizo, se envía un mensaje.
+370	Susurrar a
+371	General:
+372	Herramientas para bandas
+373	En este panel puedes activar varios mecanismos que te ayudan en las bandas.
+374	Se aplicó el aspecto actual a todas las demás ventanas.
+375	Aplica el aspecto actual a todas las ventanas creadas.
+376	Guarda el aspecto actual como preajuste; puedes exportarlo o guardarlo como copia de seguridad.
+377	Elige uno de los aspectos guardados para aplicarlo a la ventana seleccionada.
+378	Fijar como estándar
+380	Se guardó el aspecto estándar: las ventanas nuevas lo usarán por defecto.
+381	Barra de desplazamiento
+384	Comentarios
+385	Alinear con el chat derecho
+386	Mueve y ajusta el tamaño de las ventanas |cFFFFFF00#1|r y |cFFFFFF00#2|r para ponerlas sobre la ventana de chat derecha.
+387	Borde de la descripción en negro
+389	Quitar el borde de la descripción
+391	Gestionar aspectos personalizados guardados:
+392	Restablecer el borde de la descripción
+393	Devuelve el color y la textura del borde de la descripción a los predeterminados.
+394	Selección de aspecto:
+395	Social
+396	Cómo quieres que te conozcan en tu hermandad.
+397	Botón de estirar arriba
+398	Pone el botón de estirar en la parte superior de la ventana.
+399	Botón de estirar siempre encima
+401	Incrustar en pestaña de chat
+402	Al activarlo, una o más ventanas se pegan a una pestaña de chat.
+403	Una sola ventana
+404	Al activarlo, solo se pega una ventana en lugar de dos.
+405	Nombre de la pestaña
+406	Nombre de la pestaña donde se pegarán las ventanas.
+407	Transliterar
+408	Muestra las letras rusas como letras occidentales.
+409	Paréntesis
+410	Elige qué carácter abre y cierra el bloque de por segundo y porcentaje.
+411	Mostrar porcentaje
+413	Mostrar por segundo
+414	Mostrar daño por segundo y sanación por segundo.
+415	Separador
+416	Elige qué carácter separa la cantidad por segundo del porcentaje.
+417	Mostrar total
+419	Fondo:
+420	Apariencia:
+421	Termina la edición e ignora cualquier cambio en el código.
+422	Selecciona el texto y pulsa el botón de color para cambiar el color del texto seleccionado.
+426	Medición del tiempo
+428	Opciones de los botones de la barra de título
+429	Estas opciones cambian el menú principal de la parte superior de la ventana.
+430	Barra de título arriba
+432	Herramientas:
+433	Tipo de abreviatura
+434	Elige el formato de los números que se muestran en las descripciones.
+435	Borde:
+436	En qué lado del ancla se coloca la descripción.
+437	Mueve la posición del ancla cuando el ancla es |cFFFFFF00Punto en pantalla|r.
+438	Las descripciones se pegan a la fila señalada o a un punto elegido de la pantalla.
+440	Cambia el color del borde.
+441	Cambia el tamaño del borde.
+442	Cambia el archivo de textura del borde.
+443	Fondo de pantalla de los submenús
+444	Al activarlo, algunos menús pueden usar su propio fondo en los submenús.
+445	Método para maximizar
+447	Con Mayús, Ctrl o Alt
+448	Siempre maximizado
+449	Solo bloque de Mayús
+450	Solo bloque de Ctrl
+451	Solo bloque de Alt
+452	Editar fondo de los menús
+453	Cambia el aspecto del fondo de los menús de la barra de título.
+454	Ocultar bichos
+455	Durante |cFFFFFF00X|r segundos, no cambiar solo a los segmentos de bichos (|cFFFFFF00solo después de derrotar a un jefe|r).
+456	Control rápido de la ventana (#%s):
+457	Gestionar marcadores
+458	Abre el panel de configuración de los marcadores.
+459	Velocidad de la rueda
+460	Cambia la velocidad del desplazamiento al girar la rueda del ratón sobre una ventana.
+461	Anclas:
+462	Ignorar mostrar/ocultar todas
+463	Al activarlo, a esta ventana no le afecta ocultar, mostrar o alternar todas las ventanas.
+464	Escala
+466	Intervalo de actualización
+469	Estas opciones controlan el fondo de la ventana.
+470	Abre el editor de imágenes para cambiar algunos aspectos de la imagen elegida.
+471	Mostrar fondo.
+472	Elige el grupo de imágenes.
+473	Imagen que se usará como fondo.
+474	Ventana: automatización
+475	Opciones de automatización de la ventana
+476	Estas opciones controlan lo que la ventana hace sola, como ocultarse o cambiar de vista automáticamente.
+477	Datos para gráficos
+478	Recolector de datos
+479	Fuente de datos
+480	Ajustes básicos generales y control rápido de las ventanas.
+481	Barra de título: general
+482	Ajustes de rendimiento
+483	Gestión de complementos
+484	Herramientas de banda
+485	Barras: avanzado
+486	Juntar los hechizos comunes con el mismo nombre
+487	Sobresanación
+488	Sobresanado
+489	Parada
+490	Tipo de reloj
+491	Durabilidad
+492	FPS
+493	Oro
+494	Latencia
+495	Details! no puede instalar el complemento porque ese nombre ya está en uso
+496	Nombre del encuentro y segmento
+497	Mi amenaza
+498	Reloj
+499	Diferencia con el último combate

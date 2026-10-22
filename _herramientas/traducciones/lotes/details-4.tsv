@@ -1,0 +1,134 @@
+500	Configurar el complemento actual
+501	Elegir otro complemento
+502	consultar talentos y nivel de objeto.
+503	no se puede consultar en combate.
+504	hay que actualizar
+505	[*] reutilización de banda
+506	Dentro de una banda, muestra un icono en la barra de título de Details! con el uso de frascos, comida y poción previa.
+507	Revisión de banda
+508	tiempo activo del beneficio de
+509	reutilizaciones usadas por
+510	Muerte de
+511	tiempo activo del perjuicio de
+512	Informar de los resultados
+513	Invertir
+515	enviar en orden ascendente.
+516	Últimos informes
+517	Resistido
+518	De derecha a izquierda
+519	sacaste |cFFFFFF00%s|r; ¡es tu mejor marca, felicidades!
+520	sacaste |cFFFFFF00%s|r; tu mejor marca es |cFFFFFF00%s|r el %s con nivel de objeto %d.
+521	ver abajo
+522	Limpieza de bichos
+523	Segmentos
+525	Tiempo de combate
+527	Tiempo en combate
+528	Tiempo total
+530	Fuera de combate
+531	Evitado
+532	Desperdiciado
+533	abre el panel de la API para crear complementos, vistas personalizadas, auras, etc.
+534	activa o desactiva toda la captura de datos.
+538	borra todos los segmentos.
+539	todas las ventanas si no indicas <número de ventana>.
+542	devuelve toda la configuración a la predeterminada; úsalo si Details! no funciona bien.
+544	ejecuta una macro que muestra qué jefes mataste esta semana.
+545	Intercambio de vida
+547	Estadísticas
+548	Este widget no tiene opciones.
+549	añadir marcador
+550	Elige la vista para el marcador #%d.
+551	Cambiar a
+552	Mascotas y otros objetivos
+553	Textura
+554	no se pudo instalar porque tu versión de Details! es demasiado vieja.
+555	De arriba a abajo
+556	Total
+557	Ayuda a traducir Details!
+560	hay una versión nueva; descárgala desde la app de Twitch o la web de Curse.
+563	si cambias de opinión, siempre puedes cambiarlo en el panel de opciones
+564	Descripción de la velocidad de actualización en la ventana de bienvenida.
+565	si cambias de opinión, siempre puedes cambiarlo en el panel de opciones
+566	Usar la interfaz: estirar
+568	Usar la interfaz: marcadores
+570	Usar la interfaz: ampliar la descripción
+572	el tiempo de cada miembro de la banda se pausa si deja de estar activo y vuelve a contar cuando sigue.
+573	Actualizar DPS/SPS en tiempo real
+574	¡Pulsa el botón derecho!
+578	Saltar
+579	se usa para los rankings; mide el DPS y el SPS de todos los miembros de la banda con el tiempo de combate transcurrido.
+580	Elige el alfabeto o la región:
+581	Alfabeto latino
+582	Alfabeto cirílico
+584	Corea
+586	Crear 2.ª ventana
+587	No se encontró ninguna ventana.
+588	número de ventana
+589	Para crear un grupo de ventanas, arrastra la ventana #2 junto a la ventana #1.
+590	Aviso del líder de banda: ¡wipe!
+591	ya se avisó un wipe.
+592	no estamos en un encuentro de banda.
+593	no se pudo terminar el encuentro.
+594	Añadido correctamente.
+595	Confirmar
+596	Pestaña nueva
+597	Opciones de Chart Viewer
+598	Mostrar icono
+599	Escala de la ventana
+600	Ver en gráficos de líneas sencillos los datos que reúne Details!.
+601	Chart Viewer
+602	Abrir Chart Viewer
+603	El nombre es demasiado corto.
+604	Resurrección en combate
+605	Muestra un panel con las muertes de los jugadores.
+606	Muertes
+607	Máximo de segmentos del encuentro actual
+608	Cantidad máxima de segmentos que se guardan en la vista "Encuentro actual".
+609	Resistencia
+610	Umbral de muertes para la resistencia
+611	Los primeros |cFFFFFF00X|r jugadores en morir pierden porcentaje de resistencia.
+613	|cFF44FF44¡Jugador impecable!|r
+614	Más recientes
+615	Opciones
+616	Umbral de muertes totales
+617	Las muertes de los primeros |cFFFFFF00X|r jugadores en morir se registran en las muertes totales.
+618	A lo largo del tiempo
+620	Registro avanzado de muertes
+622	Reiniciar datos
+623	Supervivencia
+624	Umbral de muertes de la línea de tiempo
+625	Las primeras |cFFFFFF00X|r muertes del encuentro se registran para mostrarlas en el gráfico de la línea de tiempo.
+626	Mostrar gráficos de muertes
+627	10 normal
+628	Registrar muertes cuando juegas en 10 normal.
+629	25 normal
+630	Registrar muertes cuando juegas en 25 normal.
+631	10 heroico
+632	Registrar muertes cuando juegas en 10 heroico.
+633	25 heroico
+634	Registrar muertes cuando juegas en 25 heroico.
+635	No se pudo cargar este segmento: los datos están dañados.
+636	Tiempo transcurrido
+637	La línea de tiempo está registrando datos del combate actual.
+638	La línea de tiempo no tiene nada que mostrar ahora.
+639	Opciones
+640	Color de fondo
+641	Elige el color de fondo
+642	Máximo de segmentos
+643	Límite de segmentos guardados
+644	Opciones de la línea de tiempo
+645	Escala de la ventana
+646	Elige el tamaño de la ventana
+648	Línea de tiempo
+649	Reiniciar
+650	Filtro:
+651	Segundos
+652	Segmento:
+653	Origen
+654	Iconos de hechizos
+655	Objetivo
+656	A las
+657	Mostrar datos de la línea de tiempo
+658	Tipo:
+659	Reutilización
+660	Perjuicio

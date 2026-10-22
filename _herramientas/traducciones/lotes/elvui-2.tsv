@@ -1,0 +1,174 @@
+175	Formato de fecha
+176	Icono sin color
+177	Dirección en la que se mueve la barra al ganar o perder
+178	Desactivar ordenar bolsas
+179	Desactivar ordenar banco
+180	Desactivar resaltado de perjuicios
+181	Marcos de Blizzard desactivados
+182	Blizzard desactivado
+183	Desactiva los marcos de unidad del foco y del objetivo del foco.
+184	Desactiva los marcos de unidad del jugador y de la mascota.
+185	Desactiva los marcos de unidad del objetivo y del objetivo del objetivo.
+186	Efecto de enfermedad
+187	Mostrar nivel de objeto
+188	Mostrar un signo de exclamación en los objetos que empiezan una misión.
+189	Mostrar los mensajes de campo de batalla en el centro de la pantalla.
+190	Mostrar la barra de recordatorio en el minimapa.
+191	Mostrar el icono dentro de la barra de lanzamiento.
+192	Mostrar la barra de lanzamiento dentro del panel de información; el icono se verá fuera del marco de unidad principal.
+193	Mostrar el icono de basura en todos los objetos grises que se pueden vender.
+194	Mostrar el nombre de la unidad en el bocadillo de chat.
+195	Mostrar el ID del PNJ al pasar el ratón por su descripción.
+196	Tipos de visualización
+197	Hora del servidor que se muestra.
+198	Muestra un informe detallado de cada objeto vendido.
+199	Muestra el nivel de objeto en los objetos equipables.
+200	No mostrar auras que duran más que esto (en segundos). Pon 0 para desactivarlo.
+201	No mostrar auras que duran menos que esto (en segundos). Pon 0 para desactivarlo.
+202	Aspecto de las casillas desplegables
+203	Filtro de mazmorras y bandas
+204	Activar duración
+205	Tamaño de fuente de la duración
+206	Texto de duración
+207	Tamaño del historial del cuadro de texto
+208	PNJ enemigo
+209	Jugador enemigo
+210	Icono de élite
+211	Activar color personalizado
+212	Permite usar opciones de tamaño separadas para el panel de chat derecho.
+213	Activar/desactivar el minimapa.
+214	Activar/desactivar el aumento de tamaño de la placa de nombre del objetivo.
+215	Activa el panel de control de banda de ElvUI.
+216	Al activarlo se ordena toda la banda junta, pero no podrás distinguir los grupos.
+217	Al activarlo se invierte el orden de los grupos cuando la banda no está llena; empieza desde el otro lado.
+218	Al activarlo se comprueba tu cantidad de vida.
+219	Al activarlo se comprueba tu cantidad de poder.
+220	Encantamiento
+221	Alternar enemigas en combate
+222	Marcos de PNJ enemigos
+223	Marcos de jugadores enemigos
+224	Ingeniería
+225	Mensajes de JcJ mejorados
+226	Color de objeto equipado
+227	Objeto equipado
+228	Error al leer los datos. ¡El texto de importación puede estar dañado!
+229	¡Error al exportar el perfil!
+230	Excluir nombre
+231	Nombres excluidos
+232	Los nombres excluidos no se colorean por clase.
+233	Exportar perfil
+234	Exportado
+235	PNJ aliado
+236	Jugador aliado
+237	Desvanecer botones del chat
+238	Retraso antes de desvanecer
+239	Desvanecer
+240	Desvanecer pestañas sin fondo
+241	Desvanecer pestañas sueltas
+242	Desvanecedor
+243	Desvanece los botones que abren las ventanas de chat cuando esa ventana está cerrada.
+244	Desvanece el texto de las pestañas de chat acopladas a un panel sin fondo.
+245	Desvanece el texto de las pestañas de chat que no están acopladas al panel izquierdo o derecho.
+246	Prioridad del filtro
+247	Buscar filtro
+248	¡El filtro ya existe!
+249	Página de filtros
+250	Los nombres de los filtros no pueden tener comas. Se quitaron las comas del nombre.
+251	Destello
+252	Beneficios con posición fluida sobre perjuicios
+253	Perjuicios con posición fluida sobre beneficios
+254	Dirección del menú desplegable
+255	Espaciado del menú desplegable
+256	Foco
+257	Objetivo del foco
+258	Forzar color de reacción
+259	Fuerza a desactivar el resaltado de perjuicios en estos marcos
+260	Fuerza a desactivar el brillo al pasar el ratón en estos marcos
+261	Fuerza a desactivar el brillo del objetivo en estos marcos
+262	Usa el color de reacción en vez del de clase en las unidades controladas por jugadores.
+263	Brillo del marco
+264	Nivel del marco
+265	Orientación del marco
+266	Capa del marco
+267	Alternar aliadas en combate
+268	Marcos de PNJ aliados
+269	Marcos de jugadores aliados
+270	Superposición completa
+271	Completo
+272	Chat de MJ
+273	Flecha GPS
+274	Gemas
+275	Opciones generales
+276	Global (configuración de la cuenta)
+277	Transparencia global al desvanecer
+278	Global
+279	Formato del oro
+280	Color bueno
+281	Escala buena
+282	Color de transición buena
+283	Espaciado entre grupos
+284	Agrupar y ordenar
+285	Grupos por fila/columna
+286	Dirección de crecimiento X
+287	Dirección de crecimiento Y
+288	Guía:
+289	Umbral HH:MM
+291	Tamaño de fuente del encabezado
+292	Multiplicador del fondo de vida
+293	Barra de vida
+294	Color de vida
+295	Longitud de la vida
+296	Umbral de vida
+297	Alto del rastreador de objetivos. Auméntalo para ver más objetivos.
+298	Herboristería
+299	Aquí puedes añadir objetos o términos de búsqueda que no quieras ordenar. Para quitar un objeto, haz clic en su nombre en la lista.
+300	Ocultar al nivel máximo
+301	Ocultar marco
+302	Ocultar en combate
+303	Ocultar en vehículo
+304	Ocultar nombre del hechizo
+305	Ocultar tiempo
+306	Oculta secciones concretas de la descripción del texto de datos.
+307	Tamaño del historial
+308	Historial
+309	Resaltar al pasar el ratón
+310	Al pasar el ratón
+311	Cuánto tarda en desvanecerse la vida recortada.
+312	Cuánto tarda en desvanecerse el poder recortado.
+313	Cuántos segundos sigue visible la barra de lanzamiento después de que el lanzamiento falle o se interrumpa.
+314	Cuánto tiempo pasa antes de que la vida recortada empiece a desvanecerse.
+315	Cuánto tiempo pasa antes de que el poder recortado empiece a desvanecerse.
+316	Marco del icono
+317	Icono dentro de la barra de lanzamiento
+318	Solo icono
+319	Posición del icono
+320	Tamaño del icono
+321	Iconos y texto (corto)
+322	Si se activa, comprueba que a la unidad le falten las auras en vez de que las tenga.
+323	Si se activa, hacen falta todas las auras para activar el filtro. Si no, basta con una.
+324	Si se activa, hacen falta todas las reutilizaciones para activar el filtro. Si no, basta con una.
+325	Si se activa, el filtro se activa si la unidad está lanzando cualquier cosa.
+326	Si se activa, el filtro se activa si la unidad está canalizando cualquier cosa.
+327	Si se activa, el filtro se activa si la unidad no está lanzando nada.
+328	Si se activa, el filtro se activa si la unidad no está canalizando nada.
+329	Si se activa, el filtro solo funciona si el nivel de la unidad es igual o mayor que este valor.
+330	Si se activa, el filtro solo funciona si el nivel de la unidad es igual o menor que este valor.
+331	Si se activa, el filtro solo funciona si el nivel de la unidad es este valor.
+332	Si se activa, el filtro solo funciona si la unidad tiene tu mismo nivel.
+333	Si se activa, el filtro solo funciona si la unidad lanza hechizos interrumpibles.
+334	Si se activa, el filtro solo funciona si la unidad lanza hechizos no interrumpibles.
+335	Si se activa, el filtro solo funciona si la unidad no está lanzando ni canalizando ninguno de los hechizos elegidos.
+336	Si se activa, el filtro solo funciona cuando estás en combate.
+337	Si se activa, el filtro solo funciona cuando la unidad no es tu objetivo.
+338	Si se activa, el filtro solo funciona cuando estás fuera de combate.
+339	Si se activa, el filtro solo funciona cuando descansas en una posada.
+340	Si se activa, el filtro solo funciona cuando la unidad es tu objetivo.
+341	Si se activa, el filtro solo funciona cuando tienes un objetivo.
+342	Si el aura aparece con un número, tienes que usarlo para quitarla de la lista.
+343	Si esta lista está vacía y "Interrumpible" está marcado, el filtro se activa con cualquier lanzamiento que se pueda interrumpir.
+344	Si se usa este umbral, la vida de la unidad tiene que ser mayor que este valor para activar el filtro. Pon 0 para desactivarlo.
+345	Si se usa este umbral, la vida de la unidad tiene que ser menor que este valor para activar el filtro. Pon 0 para desactivarlo.
+346	Si se usa este umbral, el poder de la unidad tiene que ser mayor que este valor para activar el filtro. Pon 0 para desactivarlo.
+347	Si se usa este umbral, el poder de la unidad tiene que ser menor que este valor para activar el filtro. Pon 0 para desactivarlo.
+348	Si tienes muchos retratos 3D activos, seguramente bajen mucho tus FPS. Desactiva algunos si tienes problemas de FPS.
+349	Si tienes instalado algún complemento compatible con esta función, lo encontrarás en el desplegable de la derecha.

@@ -3,6 +3,7 @@
 // LEEME.md con créditos, origen (repositorio + commit) y licencia. También escribe catalogo.json (lo usa publicar.mjs).
 //
 // Uso: node _herramientas/empaquetar.mjs        (desde J:\WOWBOLIVIA\ADDONS)
+import { execFileSync } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { basename, dirname, join, relative } from "node:path";
 
@@ -191,3 +192,8 @@ for (const extra of [
 
 writeFileSync(join(ROOT, "_herramientas", "catalogo.json"), JSON.stringify(catalogo, null, 2) + "\n");
 console.log(`\n${catalogo.length} paquetes → _herramientas/catalogo.json`);
+
+// Español para clientes esMX: parches, textos que faltaban (traducciones/*.json) e interfaz de Questie
+for (const [script, ...args] of [["parches.mjs"], ["traducir.mjs", "aplicar", "--todos"], ["questie.mjs", "aplicar"]]) {
+  console.log(execFileSync(process.execPath, [join(ROOT, "_herramientas", script), ...args], { cwd: ROOT, encoding: "utf8" }).trim());
+}

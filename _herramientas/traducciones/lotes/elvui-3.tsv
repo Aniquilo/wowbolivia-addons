@@ -1,0 +1,169 @@
+350	Si desbloqueas las barras de acción, al intentar mover un hechizo puede que se lance al instante si lanzas al pulsar la tecla en vez de al soltarla.
+351	Ignorar el aviso de escala de la interfaz
+352	Objetos ignorados y sintaxis de búsqueda (global)
+353	Objetos ignorados y sintaxis de búsqueda (perfil)
+354	Importar perfil
+355	Importando
+356	Temporizador de inactividad
+357	Borde del panel de información
+358	Heredar desvanecimiento global
+359	Hereda el desvanecimiento global: pasar el ratón, seleccionar, fijar foco, perder vida o entrar en combate quitan la transparencia. Si no, usa el nivel de transparencia de las opciones generales de las barras de acción.
+360	Dentro del panel de información
+361	Dificultad de la instancia
+362	Tipo de instancia
+363	Invertir colores
+364	Invierte los colores de primer plano y de fondo.
+365	Lanzando algo
+366	Canalizando algo
+367	Es objetivo
+368	Fuente del contador de objetos
+369	Umbral de nivel de objeto
+370	Nivel de objeto
+371	Posición del texto del atajo
+372	Desplazamiento X del texto del atajo
+373	Desplazamiento Y del texto del atajo
+374	Compatibilidad con LBF
+375	Pon -1 para los jefes o 0 para desactivarlo.
+376	Marco del buscador de mazmorras
+377	Cola del buscador de grupos
+378	Marco del buscador de bandas
+379	Peletería
+380	De izquierda a derecha
+381	Perdiendo amenaza
+382	Amenaza baja
+383	Un número menor es más prioridad. Los filtros se procesan en orden del 1 al 100.
+384	Umbral MM:SS
+386	Efecto de magia
+387	Color principal de los bordes de la interfaz.
+388	El marco de unidad brilla en amarillo cuando la vida baja de este porcentaje, y en rojo cuando llega a la mitad de este valor.
+389	Hace el mapa del mundo más pequeño.
+390	Opacidad del mapa al moverse
+391	Máximo de líneas
+392	Igual al nivel del jugador
+393	Alfa máximo
+394	Máximo de barras
+395	Exceso máximo
+396	Cuánto puede sobresalir como máximo el exceso por el final de la barra de vida.
+397	Duración máxima
+398	Nivel máximo
+399	Tiempo restante máximo
+400	Criterio para ordenar.
+401	Alfa mínimo
+402	Duración mínima
+403	Nivel mínimo
+404	Tiempo restante mínimo
+405	Minería
+406	Temporizadores espejo
+407	Falta
+408	Copiar módulo
+409	Restablecer módulo
+410	Formato del dinero
+411	Brillo al pasar el ratón
+412	Resaltar al pasar el ratón
+413	Compatibilidad con varios monitores
+414	IDs de PNJ
+415	Color del nombre
+416	Brillo del color del nombre
+417	Solo nombre
+418	Filtros de estilo de placas de nombre
+419	Placa de nombre
+420	Sin alertas en combate
+421	Sin duración
+422	Alfa de los que no son objetivo
+423	No está lanzando nada
+424	No está canalizando nada
+425	Hechizo no
+426	No es objetivo
+427	No utilizable
+428	Cantidad de mensajes que se desplazan en cada paso.
+429	Cantidad de caracteres repetidos en combate antes de que el cuadro de chat se cierre solo. Pon 0 para desactivarlo.
+430	Alto del marco de objetivos
+431	Sin reutilización
+432	En reutilización
+433	Solo coincidir el ID del hechizo
+434	Mostrar solo cuando la unidad está fuera de alcance.
+435	Mostrar solo cuando pasas el ratón por encima de un marco.
+436	Otro filtro
+437	Por encima del umbral de vida
+438	Por encima del umbral de poder
+439	Alfa de la superposición
+440	Daño excesivo
+441	Nombre del dueño
+442	Padre
+443	Grupo / Banda
+444	Solo grupo
+445	Personal
+446	Nombre de la mascota
+447	Mascota
+448	Objetivo de la mascota
+449	Tecla para coger acción
+450	Barras de auras del marco del jugador
+451	Vida del jugador
+452	Jugador fuera de combate
+453	Objetivo del jugador
+454	Jugador en combate
+455	Jugador descansando
+456	Complemento
+457	Efecto de veneno
+458	Colocar beneficios sobre perjuicios
+459	Colocar perjuicios sobre beneficios
+460	Umbral de poder
+461	Privado (configuración del personaje)
+462	Bolsas de profesión
+463	Nombre del perfil
+464	Del perfil
+465	¡Perfil importado correctamente!
+466	Barra de progreso
+467	Pone coordenadas en el mapa del mundo.
+468	Icono JcJ
+469	Cola JcJ
+470	Texto JcJ
+471	Empieza misión
+472	Carcaj
+473	Iconos de LB / MB
+474	Dificultad de la banda
+475	Solo banda
+476	Ordenar toda la banda
+477	Alcance
+478	Barras de lanzamiento por reacción
+479	Colores de reacción
+480	Tipo de reacción
+481	Icono de comprobación de listos
+482	Hora del reino
+483	Restante / Máximo
+484	Tiempo restante
+485	Recordatorio
+486	Quitar nombre
+487	Quitar ID o nombre del hechizo
+488	Quitar hechizo
+489	Quita un nombre de la lista.
+490	Quita un hechizo del filtro. Usa el ID del hechizo si ves el ID como parte de su nombre en el filtro.
+491	Reemplazar fuentes de Blizzard
+492	Reemplaza las fuentes de Blizzard en varios paneles y marcos por las elegidas en la sección Multimedia de las opciones de ElvUI. NOTA: si lo desactivas, también se verá afectada cualquier fuente que herede de las que ElvUI suele reemplazar. Activado por defecto.
+493	Requerir todas
+494	Requerir objetivo
+495	Hay que mantener pulsado Alt para mover el cursor o recorrer los mensajes en el cuadro de texto.
+496	Restablecer filtros de auras
+497	Restablecer historial del cuadro de texto
+498	Restablecer filtro
+499	Restablecer historial
+500	Restablecer prioridad
+501	Restablecer zoom
+502	Devuelve la prioridad de los filtros al estado predeterminado.
+503	Icono de resurrección
+504	Devuelve el filtro a su estado predeterminado.
+505	Invertir huecos de las bolsas
+506	Invertir reutilización
+507	Estilo invertido
+508	Alternar al revés activa el texto de reutilización en este módulo cuando la opción global está desactivada, y lo desactiva cuando la global está activada.
+509	Alternar al revés
+510	Alto del panel derecho
+511	Ancho del panel derecho
+512	De derecha a izquierda
+513	Clic derecho para lanzarse a sí mismo
+514	Santuario
+515	Escala de la placa de nombre del objetivo.
+516	Escala
+517	Desplazar mensajes
+518	Sintaxis de búsqueda
+519	Busca el nombre de un hechizo dentro de un filtro.

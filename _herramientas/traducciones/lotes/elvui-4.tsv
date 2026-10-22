@@ -1,0 +1,159 @@
+520	Segundos que le quedan al aura antes de que la barra empiece a moverse. Pon 0 para desactivarlo.
+521	Color del texto seleccionado
+522	Color del selector
+523	Estilo del selector
+524	Tanqueando con seguridad
+525	Elige un perfil desde el que copiar o al que copiar.
+526	Intervalo de venta
+527	Tamaños de panel separados
+528	Restablecer valores predeterminados
+529	Nivel de transparencia del retrato cuando se superpone al marco.
+530	Tipo de filtro. Lista negra oculta las auras de la lista y muestra las demás. Lista blanca muestra las auras del filtro y oculta las demás.
+531	Orientación del marco de unidad.
+532	Apilar las placas de nombre en vertical o dejar que se superpongan.
+533	Corto (números enteros)
+534	Atajo a la sección "Filtros" de la configuración.
+535	Atajo a los filtros globales.
+536	Atajos
+537	Anclar la descripción al cursor del ratón
+538	Mostrar texto de "Se liga al equipar/usar"
+539	Mostrar monedas
+540	Mostrar perjuicios disipables
+541	Mostrar botones vacíos
+542	Mostrar para DPS
+543	Mostrar para sanadores
+544	Mostrar para tanques
+545	Mostrar icono
+546	Mostrar icono de basura
+547	Mostrar color de calidad
+548	Mostrar icono de misión
+549	Mostrar sin color el icono de la barra de lanzamiento si el hechizo no se puede interrumpir.
+550	Mostrar/ocultar marco de prueba
+551	Flechas laterales
+552	Tamaño y posiciones
+553	Fondo con aspecto (sin bordes)
+554	Paneles pequeños
+555	Mapa del mundo más pequeño
+556	Posición inteligente de auras
+557	Inteligente
+558	Suave
+559	Cantidad de suavizado
+560	Ordenar por
+561	Bolsa de almas
+562	Espaciado
+563	Dividir
+564	Contador de acumulaciones
+565	Posición del texto de acumulaciones
+566	Desplazamiento X del texto de acumulaciones
+567	Desplazamiento Y del texto de acumulaciones
+568	Umbral de acumulaciones
+569	Orientación del relleno de la barra de estado
+570	Barra de estado
+571	Capa y nivel
+572	Filtro de estilo
+573	Selector de pestañas
+574	Tabla
+575	Color del indicador de objetivo
+576	Información del objetivo
+577	Escala del objetivo
+578	Indicador de objetivo/poca vida
+579	Objetivo del objetivo
+580	Objetivo del objetivo del objetivo
+581	Brillo del objetivo
+582	Seleccionando
+583	Desvanecer texto
+584	El retrato se superpone a la barra de vida. Pasa automáticamente si la orientación del marco es Centro.
+585	El tema de bordes finos cambia el aspecto general de tu interfaz. Usarlo da un poco más de rendimiento que el diseño tradicional.
+586	El perjuicio tiene que llegar a esta cantidad de acumulaciones para mostrarse. Pon 0 para mostrarlo siempre.
+587	Dirección en la que crecen las auras y, luego, en la que crecen al llegar al límite de salto.
+588	Formato del texto de dinero que se muestra arriba de la bolsa principal.
+589	Formato del texto de dinero del texto de datos de oro y de su descripción.
+590	Nivel de objeto mínimo para que se muestre.
+591	Los prefijos de unidad que quieres usar cuando ElvUI acorta los valores. Se usa sobre todo en los marcos de unidad.
+592	Estos filtros no usan una lista de hechizos como los normales: usan la API de WoW y algo de lógica para decidir si un aura se permite o se bloquea.
+593	Estos filtros usan una lista de hechizos para decidir si un aura se permite o se bloquea. Su contenido se cambia en la sección "Filtros" de la configuración.
+594	Tamaño del icono cuando no está pegado a la barra de lanzamiento.
+595	Para iconos personalizados en tu carpeta Interface/Icons.
+596	Abre la configuración de colores de los marcos de unidad. Afecta a todos los marcos de unidad.
+597	Permite que la superposición cubra toda la vida, incluido el fondo.
+598	Esta sección te permite copiar la configuración de un módulo desde o hacia otro perfil.
+599	Esta sección te ayuda a devolver ciertas opciones a sus valores predeterminados.
+600	Elige el marco de chat donde salen los mensajes de ElvUI.
+601	Controla el tamaño del texto en las descripciones de comparación de objetos.
+602	Esta opción se actualiza al cambiar de actitud.
+603	Reemplaza la configuración global de reutilizaciones.
+604	Evita que aparezca el aviso de escala de la interfaz al cambiar el tamaño de la ventana del juego.
+605	Devuelve el contenido de este filtro a su estado predeterminado. Se quitarán todos los hechizos que hayas añadido.
+606	Vida según amenaza
+607	Poder según amenaza
+608	Umbral (en minutos) antes de que el texto se muestre como HH:MM. Pon -1 para no cambiar nunca a este formato.
+609	Umbral (en segundos) antes de que el texto se muestre como MM:SS. Pon -1 para no cambiar nunca a este formato.
+610	Umbral antes de que el texto pase a mostrar decimales. Pon -1 para no usar decimales.
+611	Umbral antes de que el icono se desvanezca y vuelva a aparecer. Pon -1 para desactivarlo.
+612	Formato de tiempo
+613	Colores del indicador de tiempo
+614	Tiempo a mantener
+615	Desplazamiento X del tiempo
+616	Desplazamiento Y del tiempo
+617	Color de la hora
+618	Desactivar en combate
+619	Activar en combate
+620	Fuente de las descripciones
+621	Arriba
+622	Minimapa arriba a la izquierda (dentro)
+623	Minimapa arriba (dentro)
+624	Minimapa arriba a la derecha (dentro)
+625	Tótem
+626	Nivel de transparencia cuando no estás en combate, no tienes objetivo, tienes la vida llena, no estás lanzando y no tienes foco.
+627	Fondos transparentes
+628	Botones transparentes
+629	Activadores
+630	Marco del tutorial
+631	Umbral uniforme
+632	Unidades únicas
+633	Condiciones de la unidad
+634	Estilo de prefijos de unidad
+635	Objetivo de la unidad
+636	Tipo de unidad
+637	Utilizable
+638	Usar tecla Alt
+639	Usar color de clase
+640	Usar nivel personalizado
+641	Usar capa personalizada
+642	Usar fondo al morir
+643	Usar color del indicador
+644	Usa Mayús+clic izquierdo para alternar entre aliado, enemigo o normal. Normal comprueba el filtro en todas las unidades; aliado, solo en las aliadas, y enemigo, solo en las enemigas.
+645	Usar escala del objetivo
+646	Usar color de amenaza
+647	Usar el color de clase en los nombres de los jugadores cuando los mencionan.
+648	Usar iconos de monedas en vez de texto coloreado.
+649	Arrastra y suelta para cambiar la prioridad de los filtros, o haz clic derecho para quitar uno.
+650	Usar el color del nombre de la unidad para el brillo del nombre.
+651	Usar el color de fondo personalizado en vez de un múltiplo del color principal.
+652	Usar el filtro del perfil "Indicador de beneficios (perfil)" en vez del filtro global "Indicador de beneficios".
+653	Usar bordes finos en algunos elementos de los marcos de unidad.
+654	Color de fondo para las unidades muertas o en forma de fantasma.
+655	Usado como indicador de perjuicios de banda
+656	Marco de seguimiento
+657	Al activarlo, los iconos de beneficios activos se iluminan en vez de oscurecerse, y los inactivos se oscurecen en vez de iluminarse.
+658	Al activarlo, solo muestra los hechizos que se añadieron al filtro por su ID y no por su nombre.
+659	Intenta vender otro objeto cada intervalo después de vender el anterior.
+660	Muestra los beneficios en el lugar de los perjuicios cuando no hay perjuicios activos, y al revés.
+661	Marco del estado del mundo
+662	No hace falta usar "Lanzando algo" ni "Canalizando algo" para que estos hechizos activen el filtro.
+663	Tienes que mantener pulsado este modificador para poner un aura en la lista negra con clic derecho en su icono. Pon Ninguno para desactivar la lista negra.
+664	Cambia la configuración de las barras de acción.
+665	Ajusta la configuración de las reutilizaciones.
+666	Configura las barras de información en pantalla.
+667	Cambia la configuración de los marcos de unidad.
+672	Jefe
+674	Runa de sangre
+675	Runa de muerte
+676	Runa de escarcha
+677	Runa profana
+679	Grupo
+680	Salir del vehículo
+681	Botín
+683	Mercader
+685	Heroico
+686	Barra de tótems

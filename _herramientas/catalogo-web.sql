@@ -10,9 +10,9 @@ Autor original: Barsoom, Bunny67, Zidras, DBM-Frostmourne contributors, original
 Origen: https://github.com/Zidras/DBM-Warmane (commit 6165654fb4, 2026-08-16).
 Licencia: Creative Commons BY-NC-SA 3.0.
 Carpetas: DBM-AQ20, DBM-AQ40, DBM-Azeroth, DBM-BlackTemple, DBM-BWL, DBM-ChamberOfAspects, DBM-Coliseum, DBM-Core, DBM-EyeOfEternity, DBM-Gruul, DBM-GUI, DBM-Hyjal, DBM-Icecrown, DBM-Karazhan, DBM-Magtheridon, DBM-MC, DBM-Naxx, DBM-Onyxia, DBM-Outland, DBM-Party-BC, DBM-Party-Classic, DBM-Party-WotLK, DBM-PvP, DBM-Serpentshrine, DBM-SpellTimers, DBM-StatusBarTimers, DBM-Sunwell, DBM-TheEye, DBM-Ulduar, DBM-VanillaNaxx, DBM-VanillaOnyxia, DBM-VoA, DBM-VPVEM, DBM-WorldEvents, DBM-ZG, DBM-ZulAman.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/dbm', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'ded5ab269fb88ef763f3bce0b57156e012e2e874', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/dbm', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'e9efa5d901f237ef64dbca35c0e8535e2ac2579e', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Deadly Boss Mods');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'ded5ab269fb88ef763f3bce0b57156e012e2e874', version = '10.1.13_alpha', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'e9efa5d901f237ef64dbca35c0e8535e2ac2579e', version = '10.1.13_alpha', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Deadly Boss Mods' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Details! Damage Meter
@@ -22,9 +22,9 @@ Autor original: Terciob (versión 3.3.5: Bunny67).
 Origen: https://github.com/Bunny67/Details-WotLK (commit 97e1cac2e4, 2021-04-12).
 Licencia: GPL-3.0 (módulos) / del autor.
 Carpetas: Details, Details_3DModelsPaths, Details_ChartViewer, Details_DataStorage, Details_DeathGraphs, Details_EncounterDetails, Details_SunderCount, Details_TimeLine, Details_TinyThreat.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/details', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '1bc11643799ccfec28f453f2d16ed9dbcdad6f02', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/details', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '4f6099ac1dc056f4b1eea9b5ff56bddc37d9a951', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Details! Damage Meter');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1bc11643799ccfec28f453f2d16ed9dbcdad6f02', version = '', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '4f6099ac1dc056f4b1eea9b5ff56bddc37d9a951', version = '', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Details! Damage Meter' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Skada
@@ -34,9 +34,9 @@ Autor original: Kader (bkader#5341).
 Origen: https://github.com/bkader/Skada-WoTLK (commit 5653a241a7, 2024-03-23).
 Licencia: MIT.
 Carpetas: Skada, SkadaImprovement, SkadaStorage.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/skada', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '1186f5158dfbd6c10c2e252a17455aa9550778dc', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/skada', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'f9def7dee3de47ea0ff46149068c9973e8fa180e', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Skada');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1186f5158dfbd6c10c2e252a17455aa9550778dc', version = '1.8.87', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'f9def7dee3de47ea0ff46149068c9973e8fa180e', version = '1.8.87', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Skada' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- WeakAuras
@@ -46,9 +46,9 @@ Autor original: The WeakAuras Team.
 Origen: https://github.com/NoM0Re/WeakAuras-WotLK (commit 8a7f4b0b7e, 2026-10-18).
 Licencia: GPL-2.0.
 Carpetas: APIDocumentation, WeakAuras, WeakAurasArchive, WeakAurasModelPaths, WeakAurasOptions, WeakAurasStopMotion, WeakAurasTemplates.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/weakauras', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '4c7ee1da280c5d628d2837cdacc7f17eff091eae', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/weakauras', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '531c9cf71edb6f8a2bff5d7cb3031fc64840a685', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'WeakAuras');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '4c7ee1da280c5d628d2837cdacc7f17eff091eae', version = '5.22.1', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '531c9cf71edb6f8a2bff5d7cb3031fc64840a685', version = '5.22.1', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'WeakAuras' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- ElvUI
@@ -58,9 +58,9 @@ Autor original: Elv, Bunny.
 Origen: https://github.com/ElvUI-WotLK/ElvUI (commit 58ea24f797, 2022-10-26).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: ElvUI, ElvUI_OptionsUI.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/elvui', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'ec7e0b9416b9f4d30e6d73d6aaed0e3302b8f997', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/elvui', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '7b7f409b4a0756e01e82baf0856a2e85e55d8b51', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'ElvUI');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'ec7e0b9416b9f4d30e6d73d6aaed0e3302b8f997', version = '6.09', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '7b7f409b4a0756e01e82baf0856a2e85e55d8b51', version = '6.09', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'ElvUI' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Questie
@@ -70,9 +70,9 @@ Autor original: Aldori + Original Questie Team.
 Origen: https://github.com/Aldori15/Questie (commit d695e9048e, 2026-10-16).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: Questie-335.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/questie', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '6a7ddbb25d6e2046e349050e1848d6169d4cb4c1', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/questie', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'ca8ddb7461b684105047dbd903803d0daa14cb85', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Questie');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '6a7ddbb25d6e2046e349050e1848d6169d4cb4c1', version = '10.0.1-335', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'ca8ddb7461b684105047dbd903803d0daa14cb85', version = '10.0.1-335', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Questie' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Auctionator
@@ -82,9 +82,9 @@ Autor original: Zirco.
 Origen: https://github.com/alchem1ster/WotLK-Auctionator (commit b4e3eb68dc, 2023-05-14).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: Auctionator.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/auctionator', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '9f1860327c06dc7440fa9c094abc1e0a1dccee01', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/auctionator', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'c5a40268a1bc88d7c9f471ed5ae35ababf874714', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Auctionator');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '9f1860327c06dc7440fa9c094abc1e0a1dccee01', version = '2.6.8', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'c5a40268a1bc88d7c9f471ed5ae35ababf874714', version = '2.6.8', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Auctionator' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Bagnon
@@ -106,9 +106,9 @@ Autor original: Adirelle, backported to 3.3.5 by Sattva#7238 - discord.
 Origen: https://github.com/Sattva-108/AdiBags (commit d8b49ed56d, 2025-07-09).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: AdiBags.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/adibags', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'c8be427f3f26f44ad3d6fedb3fe95253f924e4bc', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/adibags', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '338aeab179bb5601c7d5b2867eb749c87e9c439f', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'AdiBags');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'c8be427f3f26f44ad3d6fedb3fe95253f924e4bc', version = '3.3.5', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '338aeab179bb5601c7d5b2867eb749c87e9c439f', version = '3.3.5', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'AdiBags' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Grid2
@@ -118,9 +118,9 @@ Autor original: Kader (bkader#5341).
 Origen: https://github.com/bkader/Grid2-WoTLK (commit fc8d5e139b, 2022-10-04).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: Grid2, Grid2AoeHeals, Grid2Options.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/grid2', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'b34220d6846a27a5b21e1658cf04bb03daf2f3fc', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/grid2', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'e8768e458197a62460244bbecef15c52ab771ebc', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Grid2');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'b34220d6846a27a5b21e1658cf04bb03daf2f3fc', version = 'r736', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'e8768e458197a62460244bbecef15c52ab771ebc', version = 'r736', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Grid2' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Immersion
@@ -130,9 +130,9 @@ Autor original: Sebastian Lindfors.
 Origen: https://github.com/s0h2x/Immersion-WotLK (commit e0b208b2ae, 2024-11-06).
 Licencia: Artistic License 2.0.
 Carpetas: Immersion.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/immersion', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '78a0a483a636f52e678c7e9d5a4c2a9fc6d37cdd', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/immersion', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '84a4c2a8ffa29e897ac83f7f07651ebbb6253c21', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Immersion');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '78a0a483a636f52e678c7e9d5a4c2a9fc6d37cdd', version = '1.4.14', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '84a4c2a8ffa29e897ac83f7f07651ebbb6253c21', version = '1.4.14', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Immersion' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Leatrix Maps
@@ -166,9 +166,9 @@ Autor original: Dandruff (Hypopheria Remaster).
 Origen: https://github.com/hypopheria2k/xCT_Plus_wotlk (commit 8c9969e089, 2026-05-01).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: xCT+.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/xct', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'f4f36bfe61781bba3b9099696d0d8200b4513d04', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/xct', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '7739edfd2952a2cb9b99120632ad0fa3b914bbeb', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'xCT+');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'f4f36bfe61781bba3b9099696d0d8200b4513d04', version = '3.8.5', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '7739edfd2952a2cb9b99120632ad0fa3b914bbeb', version = '3.8.5', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'xCT+' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- pretty_minimap
@@ -202,9 +202,9 @@ Autor original: Wagthaa.
 Origen: https://github.com/sirus-addons/MoveAnything (commit d82cf92608, 2025-07-18).
 Licencia: Sin licencia publicada (del autor).
 Carpetas: MoveAnything.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/moveanything', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'fbf7315a5553c1e11d1c3d67d8e0e1a5f821d8b1', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/moveanything', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'b0bc5e316c1753eb193c96ffd224e1dad523916b', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'MoveAnything');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'fbf7315a5553c1e11d1c3d67d8e0e1a5f821d8b1', version = '18.0.8', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'b0bc5e316c1753eb193c96ffd224e1dad523916b', version = '18.0.8', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'MoveAnything' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- GearScore
@@ -213,9 +213,9 @@ INSERT INTO addons (name, category, version, language, author, summary, descript
 Autor original: Mirrikat45.
 Licencia: Del autor.
 Carpetas: BonusScanner, GearScore.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/gearscore', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '9cc0d79ab45bb0ef71804b0c82a2639464acf852', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/gearscore', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'edf3be195e261ca97bd0e508c6fde772c68a20f9', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'GearScore');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '9cc0d79ab45bb0ef71804b0c82a2639464acf852', version = '3.1.17 - Release', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'edf3be195e261ca97bd0e508c6fde772c68a20f9', version = '3.1.17 - Release', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'GearScore' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- IDs
@@ -224,7 +224,7 @@ INSERT INTO addons (name, category, version, language, author, summary, descript
 Autor original: Aegir.
 Licencia: Del autor.
 Carpetas: IDs.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/ids', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '0a0ec9d2b18f8d3838b0a4814f8d15fe4017c7d2', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/ids', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'afab550cb7a8fee4a795aeffef14f3e92ba71f34', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'IDs');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '0a0ec9d2b18f8d3838b0a4814f8d15fe4017c7d2', version = '1.0.2', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'afab550cb7a8fee4a795aeffef14f3e92ba71f34', version = '1.0.2', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'IDs' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
