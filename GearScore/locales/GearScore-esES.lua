@@ -1,5 +1,5 @@
 ﻿local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
-local L = AceLocale:NewLocale("GearScore", "esES", false)
+local L = AceLocale:NewLocale("GearScore", "esES", false) or AceLocale:NewLocale("GearScore", "esMX", false)
 if not L then return end
 -- L["Alliance"] = ""
 L["BloodElf"] = "Elfo de Sangre"
