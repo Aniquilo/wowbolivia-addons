@@ -1,0 +1,27 @@
+## Interface: 30300
+## Title: Skada: |cff7fff7fStorage|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-deDE: Skada: |cff7fff7fLagerung|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-esES: Skada: |cff7fff7fAlmacenamiento|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-esMX: Skada: |cff7fff7fAlmacenamiento|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-frFR: Skada: |cff7fff7fStockage|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-koKR: Skada: |cff7fff7f스토리지|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-ruRU: Skada: |cff7fff7fХранение|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-zhCN: Skada: |cff7fff7f存储|r - [|cff5aa9ffWoW Bolivia|r]
+## Title-zhTW: Skada: |cff7fff7f存儲|r - [|cff5aa9ffWoW Bolivia|r]
+## Notes: Stores Skada segments.
+## Notes-deDE: Speichert Skada-Segmente.
+## Notes-esES: Tiandas segmentos de Skada.
+## Notes-esMX: Tiandas segmentos de Skada.
+## Notes-frFR: Stocke les segments Skada.
+## Notes-koKR: Skada 세그먼트를 저장합니다.
+## Notes-ruRU: Хранилище сегментов Skada.
+## Notes-zhCN: 存储 Skada 段。
+## Notes-zhTW: 存儲 Skada 段。
+## Dependencies: Skada
+## SavedVariablesPerCharacter: SkadaStorageDB
+## DefaultState: disabled
+## Author: Kader (|cff808080bkader#5341|r)
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/bkader/Skada-WoTLK @ 5653a241a7
+
+SkadaStorage.lua
