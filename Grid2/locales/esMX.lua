@@ -110,3 +110,10 @@ L["Vertical"] = "Vertical"
 L["Change Layout"] = "Cambiar Diseño"
 L["Left Click to drag and rearrange units"] = "Click Izquierdo: arrastra y recoloca las unidades"
 L["Right Click to finish config"] = "Click Derecho: finaliza la configuración"
+
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["PvP"] = "JcJ"
+	L["FFA"] = "Todos contra todos"
+	L["Me"] = "Yo"
+end
