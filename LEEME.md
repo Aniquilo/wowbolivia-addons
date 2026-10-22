@@ -4,7 +4,7 @@ Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a
 
 | | |
 |---|---|
-| Autor original | Blizzard Entertainment |
+| Autor original | The WeakAuras Team |
 | Origen | https://github.com/NoM0Re/WeakAuras-WotLK |
 | Versión de origen | commit `8a7f4b0b7e419b8e07027235f9b9845b7c684c98` (2026-10-18) |
 | Licencia | GPL-2.0 |
