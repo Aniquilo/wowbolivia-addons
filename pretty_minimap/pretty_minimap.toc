@@ -1,0 +1,17 @@
+## Interface: 30300
+## Title: |cff00ffff*|r |cfffff0f5pretty_minimap|r - [|cff5aa9ffWoW Bolivia|r]
+## Notes: |cffcaf7faMinimap addon from pretty stuff|r
+## Notes-ruRU: |cffcaf7faМиникарта из прекрасного стаффа|r
+## Version: 1.0
+## Author: s0high
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/s0h2x/pretty_minimap @ fed2300492
+## OptionalDeps: Blizzard_TimeManager
+
+config.lua
+atlas.lua
+core.lua
+map.lua
+time.lua
+auras.lua
+init.lua
