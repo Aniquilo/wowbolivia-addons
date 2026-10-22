@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Carbonite Transfer - [|cff5aa9ffWoW Bolivia|r]
+## Version: 1.01
+## Author: Carbon Based Creations, LLC
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/anzz1/Carbonite-3.3.5 @ ca4254e623
+## Notes: Copyright 2008-2010 Carbon Based Creations, LLC.  Used to transfer Warehouse data between accounts.
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: CarboniteTransferData
+
+CarboniteTransfer.lua
