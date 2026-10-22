@@ -1,0 +1,390 @@
+[
+  {
+    "rama": "dbm",
+    "nombre": "DBM",
+    "titulo": "Deadly Boss Mods",
+    "repo": "Zidras/DBM-Warmane",
+    "categoria": "raids",
+    "licencia": "Creative Commons BY-NC-SA 3.0",
+    "resumen": "Avisos y temporizadores de jefes para mazmorras y bandas de toda la expansión.",
+    "autor": "Barsoom, Bunny67, Zidras, DBM-Frostmourne contributors, original DBM team",
+    "version": "10.1.13_alpha",
+    "carpetas": [
+      "DBM-AQ20",
+      "DBM-AQ40",
+      "DBM-Azeroth",
+      "DBM-BlackTemple",
+      "DBM-BWL",
+      "DBM-ChamberOfAspects",
+      "DBM-Coliseum",
+      "DBM-Core",
+      "DBM-EyeOfEternity",
+      "DBM-Gruul",
+      "DBM-GUI",
+      "DBM-Hyjal",
+      "DBM-Icecrown",
+      "DBM-Karazhan",
+      "DBM-Magtheridon",
+      "DBM-MC",
+      "DBM-Naxx",
+      "DBM-Onyxia",
+      "DBM-Outland",
+      "DBM-Party-BC",
+      "DBM-Party-Classic",
+      "DBM-Party-WotLK",
+      "DBM-PvP",
+      "DBM-Serpentshrine",
+      "DBM-SpellTimers",
+      "DBM-StatusBarTimers",
+      "DBM-Sunwell",
+      "DBM-TheEye",
+      "DBM-Ulduar",
+      "DBM-VanillaNaxx",
+      "DBM-VanillaOnyxia",
+      "DBM-VoA",
+      "DBM-VPVEM",
+      "DBM-WorldEvents",
+      "DBM-ZG",
+      "DBM-ZulAman"
+    ],
+    "origen_commit": "6165654fb413f4166b1c142809ae287b1227ba6a",
+    "origen_fecha": "2026-08-16",
+    "rama_commit": "ded5ab269fb88ef763f3bce0b57156e012e2e874"
+  },
+  {
+    "rama": "details",
+    "nombre": "Details",
+    "titulo": "Details! Damage Meter",
+    "repo": "Bunny67/Details-WotLK",
+    "categoria": "combat",
+    "licencia": "GPL-3.0 (módulos) / del autor",
+    "resumen": "Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.",
+    "autor": "",
+    "version": "",
+    "carpetas": [
+      "Details",
+      "Details_3DModelsPaths",
+      "Details_ChartViewer",
+      "Details_DataStorage",
+      "Details_DeathGraphs",
+      "Details_EncounterDetails",
+      "Details_SunderCount",
+      "Details_TimeLine",
+      "Details_TinyThreat"
+    ],
+    "origen_commit": "97e1cac2e4b5f68a3572f2f4872c9422759a1bca",
+    "origen_fecha": "2021-04-12",
+    "rama_commit": "acabaafe3daca1738189eae22f145a0e3ddb926c"
+  },
+  {
+    "rama": "skada",
+    "nombre": "Skada",
+    "titulo": "Skada",
+    "repo": "bkader/Skada-WoTLK",
+    "categoria": "combat",
+    "licencia": "MIT",
+    "resumen": "Medidor de daño y sanación modular y ligero, ideal para bandas.",
+    "autor": "Kader (bkader#5341)",
+    "version": "1.8.87",
+    "carpetas": [
+      "Skada",
+      "SkadaImprovement",
+      "SkadaStorage"
+    ],
+    "origen_commit": "5653a241a7a97a5988280d916ff3a9e31ec55948",
+    "origen_fecha": "2024-03-23",
+    "rama_commit": "1186f5158dfbd6c10c2e252a17455aa9550778dc"
+  },
+  {
+    "rama": "weakauras",
+    "nombre": "WeakAuras",
+    "titulo": "WeakAuras",
+    "repo": "NoM0Re/WeakAuras-WotLK",
+    "categoria": "buffs",
+    "licencia": "GPL-2.0",
+    "resumen": "Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.",
+    "autor": "Blizzard Entertainment",
+    "version": "1.0.2",
+    "carpetas": [
+      "APIDocumentation",
+      "WeakAuras",
+      "WeakAurasArchive",
+      "WeakAurasModelPaths",
+      "WeakAurasOptions",
+      "WeakAurasStopMotion",
+      "WeakAurasTemplates"
+    ],
+    "origen_commit": "8a7f4b0b7e419b8e07027235f9b9845b7c684c98",
+    "origen_fecha": "2026-10-18",
+    "rama_commit": "96c37f08e869f4044c43c1122fb4afafe61b4d00"
+  },
+  {
+    "rama": "elvui",
+    "nombre": "ElvUI",
+    "titulo": "ElvUI",
+    "repo": "ElvUI-WotLK/ElvUI",
+    "categoria": "ui",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Reemplazo completo de la interfaz: marcos, barras, bolsas y chat modernos.",
+    "autor": "Elv, Bunny",
+    "version": "6.09",
+    "carpetas": [
+      "ElvUI",
+      "ElvUI_OptionsUI"
+    ],
+    "origen_commit": "58ea24f7979740221389ce09685eb445723a6346",
+    "origen_fecha": "2022-10-26",
+    "rama_commit": "ec7e0b9416b9f4d30e6d73d6aaed0e3302b8f997"
+  },
+  {
+    "rama": "questie",
+    "nombre": "Questie",
+    "titulo": "Questie",
+    "repo": "Aldori15/Questie",
+    "categoria": "quests",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Muestra en el mapa y el minimapa dónde están tus misiones, objetivos y PNJ.",
+    "autor": "Aldori + Original Questie Team",
+    "version": "10.0.1-335",
+    "carpetas": [
+      "Questie-335"
+    ],
+    "origen_commit": "d695e9048e6df8b48d36a6db9436d82ca3bbbd87",
+    "origen_fecha": "2026-10-16",
+    "rama_commit": "6a7ddbb25d6e2046e349050e1848d6169d4cb4c1"
+  },
+  {
+    "rama": "auctionator",
+    "nombre": "Auctionator",
+    "titulo": "Auctionator",
+    "repo": "alchem1ster/WotLK-Auctionator",
+    "categoria": "auction",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Casa de subastas más fácil: precios claros y publicar en pocos clics.",
+    "autor": "Zirco",
+    "version": "2.6.8",
+    "carpetas": [
+      "Auctionator"
+    ],
+    "origen_commit": "b4e3eb68dcc7cc1142b73d8a978d471bf0d4110a",
+    "origen_fecha": "2023-05-14",
+    "rama_commit": "9f1860327c06dc7440fa9c094abc1e0a1dccee01"
+  },
+  {
+    "rama": "bagnon",
+    "nombre": "Bagnon",
+    "titulo": "Bagnon",
+    "repo": "RichSteini/Bagnon-3.3.5",
+    "categoria": "bags",
+    "licencia": "MIT",
+    "resumen": "Junta todas tus bolsas en una sola ventana con búsqueda e inventario de tus personajes.",
+    "autor": "Tuller",
+    "version": "2.13.3",
+    "carpetas": [
+      "Bagnon",
+      "Bagnon_Config",
+      "Bagnon_Forever",
+      "Bagnon_GuildBank",
+      "Bagnon_Tooltips",
+      "Bagnon_VoidStorage"
+    ],
+    "origen_commit": "27a08f89819311d772e7ec7a71a41eafb813f122",
+    "origen_fecha": "2023-10-18",
+    "rama_commit": "e0510b2b18f8d27afbbd7f661f1e72c82e2b54f3"
+  },
+  {
+    "rama": "adibags",
+    "nombre": "AdiBags",
+    "titulo": "AdiBags",
+    "repo": "Sattva-108/AdiBags",
+    "categoria": "bags",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Bolsas en una sola vista, ordenadas automáticamente por tipo de objeto.",
+    "autor": "Adirelle, backported to 3.3.5 by Sattva#7238 - discord",
+    "version": "3.3.5",
+    "carpetas": [
+      "AdiBags"
+    ],
+    "origen_commit": "d8b49ed56ddf81825ab2a4bc22c08fb7a0d59eed",
+    "origen_fecha": "2025-07-09",
+    "rama_commit": "c8be427f3f26f44ad3d6fedb3fe95253f924e4bc"
+  },
+  {
+    "rama": "grid2",
+    "nombre": "Grid2",
+    "titulo": "Grid2",
+    "repo": "bkader/Grid2-WoTLK",
+    "categoria": "unitframes",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Marcos de grupo y banda compactos, pensados para sanadores.",
+    "autor": "Kader (bkader#5341)",
+    "version": "r736",
+    "carpetas": [
+      "Grid2",
+      "Grid2AoeHeals",
+      "Grid2Options"
+    ],
+    "origen_commit": "fc8d5e139b9490236b6676e1d891f98bfe4b2a10",
+    "origen_fecha": "2022-10-04",
+    "rama_commit": "b34220d6846a27a5b21e1658cf04bb03daf2f3fc"
+  },
+  {
+    "rama": "immersion",
+    "nombre": "Immersion",
+    "titulo": "Immersion",
+    "repo": "s0h2x/Immersion-WotLK",
+    "categoria": "quests",
+    "licencia": "Artistic License 2.0",
+    "resumen": "Ventanas de misiones y conversaciones más bonitas, al estilo de las expansiones modernas.",
+    "autor": "Sebastian Lindfors",
+    "version": "1.4.14",
+    "carpetas": [
+      "Immersion"
+    ],
+    "origen_commit": "e0b208b2ae38b3ccfd2b682689021bba7523395f",
+    "origen_fecha": "2024-11-06",
+    "rama_commit": "78a0a483a636f52e678c7e9d5a4c2a9fc6d37cdd"
+  },
+  {
+    "rama": "leatrix-maps",
+    "nombre": "LeatrixMaps",
+    "titulo": "Leatrix Maps",
+    "repo": "5Buttons/Leatrix-Maps-3.3.5",
+    "categoria": "map",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Mapa del mundo mejorado: ventana movible, coordenadas, niveles de zona y mapa revelado.",
+    "autor": "Leatrix",
+    "version": "3.5.44",
+    "carpetas": [
+      "Leatrix_Maps"
+    ],
+    "origen_commit": "c5e36489fe48a30b206bb9fd8fc3cf0b1bf0ef05",
+    "origen_fecha": "2026-10-19",
+    "rama_commit": "dbbfcb187432bfbe2b24e25ee6d698772a3ffd1d"
+  },
+  {
+    "rama": "leatrix-plus",
+    "nombre": "LeatrixPlus",
+    "titulo": "Leatrix Plus",
+    "repo": "Sattva-108/Leatrix_Plus",
+    "categoria": "ui",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Decenas de mejoras de calidad de vida: misiones, vendedores, chat, marcos y más.",
+    "autor": "Leatrix",
+    "version": "3.3.5 (3.0.131)",
+    "carpetas": [
+      "Leatrix_Plus"
+    ],
+    "origen_commit": "cfa45770ac1364591b161e98bb509cc2c1467220",
+    "origen_fecha": "2026-08-31",
+    "rama_commit": "e3970abee5c738e1857a30f6d5b2bc282d8fc67f"
+  },
+  {
+    "rama": "xct",
+    "nombre": "xCT",
+    "titulo": "xCT+",
+    "repo": "hypopheria2k/xCT_Plus_wotlk",
+    "categoria": "combat",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Texto de combate flotante limpio y configurable (daño, sanación, recursos).",
+    "autor": "Dandruff (Hypopheria Remaster)",
+    "version": "3.8.5",
+    "carpetas": [
+      "xCT+"
+    ],
+    "origen_commit": "8c9969e0893f67edb373e292b5e04d83dc4e4c96",
+    "origen_fecha": "2026-05-01",
+    "rama_commit": "f4f36bfe61781bba3b9099696d0d8200b4513d04"
+  },
+  {
+    "rama": "pretty-minimap",
+    "nombre": "PrettyMinimap",
+    "titulo": "pretty_minimap",
+    "repo": "s0h2x/pretty_minimap",
+    "categoria": "map",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Minimapa con un diseño moderno y limpio.",
+    "autor": "s0high",
+    "version": "1.0",
+    "carpetas": [
+      "pretty_minimap"
+    ],
+    "origen_commit": "fed230049292ec5c19fe27495b4c76832761d301",
+    "origen_fecha": "2023-04-19",
+    "rama_commit": "7acda814b7200e221fbcf07cca34787144df2040"
+  },
+  {
+    "rama": "carbonite",
+    "nombre": "Carbonite",
+    "titulo": "Carbonite",
+    "repo": "anzz1/Carbonite-3.3.5",
+    "categoria": "map",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Mapa completo con ayudante de misiones, rutas y recolección.",
+    "autor": "Carbon Based Creations, LLC",
+    "version": "3.34c9",
+    "carpetas": [
+      "Carbonite",
+      "CarboniteItems",
+      "CarboniteNodes",
+      "CarboniteTransfer"
+    ],
+    "origen_commit": "ca4254e623d987a5f7c6d57f9efd86a6eaf0a4b2",
+    "origen_fecha": "2025-10-19",
+    "rama_commit": "968496b347160141614bba8624de30953dede0aa"
+  },
+  {
+    "rama": "moveanything",
+    "nombre": "MoveAnything",
+    "titulo": "MoveAnything",
+    "repo": "sirus-addons/MoveAnything",
+    "categoria": "ui",
+    "licencia": "Sin licencia publicada (del autor)",
+    "resumen": "Mueve, escala u oculta casi cualquier elemento de la interfaz.",
+    "autor": "Wagthaa",
+    "version": "18.0.8",
+    "carpetas": [
+      "MoveAnything"
+    ],
+    "origen_commit": "d82cf926086f7cf53a1c9fcf29502ae49651ebb7",
+    "origen_fecha": "2025-07-18",
+    "rama_commit": "fbf7315a5553c1e11d1c3d67d8e0e1a5f821d8b1"
+  },
+  {
+    "rama": "gearscore",
+    "nombre": "GearScore",
+    "titulo": "GearScore",
+    "carpeta": "GearScore-WoWBolivia",
+    "categoria": "tooltips",
+    "licencia": "Del autor",
+    "resumen": "Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.",
+    "repo": "",
+    "autor": "Tristanian (tristanian@live.com)",
+    "version": "5.3",
+    "carpetas": [
+      "BonusScanner",
+      "GearScore"
+    ],
+    "origen_commit": "",
+    "origen_fecha": "",
+    "rama_commit": "1f94a4cb5967442866ceea8a19e5c9a5f1bb124a"
+  },
+  {
+    "rama": "ids",
+    "nombre": "IDs",
+    "titulo": "IDs",
+    "carpeta": "IDs-WoWBolivia",
+    "categoria": "tooltips",
+    "licencia": "Del autor",
+    "resumen": "Muestra el ID de objetos, hechizos, misiones y logros en sus descripciones.",
+    "repo": "",
+    "autor": "Aegir",
+    "version": "1.0.2",
+    "carpetas": [
+      "IDs"
+    ],
+    "origen_commit": "",
+    "origen_fecha": "",
+    "rama_commit": "ad1af6ec0b1315ff83713e341bdc0177e3d82678"
+  }
+]
