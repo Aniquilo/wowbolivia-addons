@@ -935,3 +935,11 @@ WeakAuras will always run custom grow code if you include 'changed' in this list
 	L["Zoom In"] = "Acercar"
 	L["Zoom Out"] = "Alejar"
 
+-- ==== WoW Bolivia: textos que faltaban en español (_herramientas/traducir.mjs) ====
+if L then
+	L["%s Color"] = "Color de %s"
+	L["%s Zoom: %d%%"] = "Zoom de %s: %d%%"
+	L["Aura: '%s'"] = "Aura: «%s»"
+	L["Hardcore has very low script time out limits. We recommend using a normal server to modify auras."] = "El modo Hardcore tiene límites de tiempo de ejecución de scripts muy bajos. Recomendamos usar un servidor normal para modificar auras."
+	L["Snippets"] = "Fragmentos de código"
+end
