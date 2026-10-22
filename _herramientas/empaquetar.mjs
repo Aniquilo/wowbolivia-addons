@@ -17,7 +17,7 @@ const commits = Object.fromEntries(
 const ADDONS = [
   { rama: "dbm", nombre: "DBM", titulo: "Deadly Boss Mods", repo: "Zidras/DBM-Warmane", categoria: "raids", licencia: "Creative Commons BY-NC-SA 3.0",
     resumen: "Avisos y temporizadores de jefes para mazmorras y bandas de toda la expansión." },
-  { rama: "details", nombre: "Details", titulo: "Details! Damage Meter", repo: "Bunny67/Details-WotLK", categoria: "combat", licencia: "GPL-3.0 (módulos) / del autor",
+  { rama: "details", nombre: "Details", titulo: "Details! Damage Meter", repo: "Bunny67/Details-WotLK", categoria: "combat", autor: "Terciob (versión 3.3.5: Bunny67)", licencia: "GPL-3.0 (módulos) / del autor",
     resumen: "Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad." },
   { rama: "skada", nombre: "Skada", titulo: "Skada", repo: "bkader/Skada-WoTLK", categoria: "combat", licencia: "MIT",
     resumen: "Medidor de daño y sanación modular y ligero, ideal para bandas." },
@@ -72,6 +72,16 @@ function addonFolders(dir) {
   return [...byDir.entries()].filter(([d]) => !dirs.some((o) => o !== d && (d.startsWith(o + "\\") || d.startsWith(o + "/"))));
 }
 
+/** Carpeta principal del paquete (de ahí salen autor y versión): la que se llama como el paquete o el addon */
+function principal(carpetas, a) {
+  const names = [a.nombre, a.titulo, a.nombre + "-Core", "DBM-Core", a.nombre + "-335", "Leatrix_" + a.nombre.replace("Leatrix", ""), a.titulo + "+"]
+    .map((n) => n.toLowerCase());
+  return [...carpetas].sort((x, y) => {
+    const ix = names.indexOf(x.toLowerCase()), iy = names.indexOf(y.toLowerCase());
+    return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
+  });
+}
+
 /** Firma el .toc: título "… - [WoW Bolivia]" (también los títulos traducidos) y X-Packaged-By. Conserva BOM y CRLF */
 function firmar(tocPath, nota) {
   let s = readFileSync(tocPath, "utf8");
@@ -115,8 +125,8 @@ for (const a of ADDONS) {
   }
   carpetas.sort((x, y) => x.localeCompare(y));
 
-  let autor = "", version = "";
-  for (const c of carpetas) {
+  let autor = a.autor || "", version = "";
+  for (const c of principal(carpetas, a)) {
     const toc = join(paquete, c, `${c}.toc`);
     if (!existsSync(toc)) continue;
     autor ||= tocField(toc, "Author");
@@ -161,7 +171,7 @@ for (const extra of [
   }
   const carpetas = readdirSync(paquete).filter((n) => existsSync(join(paquete, n, `${n}.toc`))).sort();
   let autor = "", version = "";
-  for (const c of carpetas) {
+  for (const c of principal(carpetas, extra)) {
     const toc = join(paquete, c, `${c}.toc`);
     autor ||= tocField(toc, "Author");
     version ||= tocField(toc, "Version");

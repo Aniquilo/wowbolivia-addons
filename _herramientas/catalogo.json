@@ -57,9 +57,9 @@
     "titulo": "Details! Damage Meter",
     "repo": "Bunny67/Details-WotLK",
     "categoria": "combat",
+    "autor": "Terciob (versión 3.3.5: Bunny67)",
     "licencia": "GPL-3.0 (módulos) / del autor",
     "resumen": "Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.",
-    "autor": "",
     "version": "",
     "carpetas": [
       "Details",
@@ -74,7 +74,7 @@
     ],
     "origen_commit": "97e1cac2e4b5f68a3572f2f4872c9422759a1bca",
     "origen_fecha": "2021-04-12",
-    "rama_commit": "acabaafe3daca1738189eae22f145a0e3ddb926c"
+    "rama_commit": "1bc11643799ccfec28f453f2d16ed9dbcdad6f02"
   },
   {
     "rama": "skada",
@@ -103,8 +103,8 @@
     "categoria": "buffs",
     "licencia": "GPL-2.0",
     "resumen": "Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.",
-    "autor": "Blizzard Entertainment",
-    "version": "1.0.2",
+    "autor": "The WeakAuras Team",
+    "version": "5.22.1",
     "carpetas": [
       "APIDocumentation",
       "WeakAuras",
@@ -116,7 +116,7 @@
     ],
     "origen_commit": "8a7f4b0b7e419b8e07027235f9b9845b7c684c98",
     "origen_fecha": "2026-10-18",
-    "rama_commit": "96c37f08e869f4044c43c1122fb4afafe61b4d00"
+    "rama_commit": "4c7ee1da280c5d628d2837cdacc7f17eff091eae"
   },
   {
     "rama": "elvui",
@@ -359,8 +359,8 @@
     "licencia": "Del autor",
     "resumen": "Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.",
     "repo": "",
-    "autor": "Tristanian (tristanian@live.com)",
-    "version": "5.3",
+    "autor": "Mirrikat45",
+    "version": "3.1.17 - Release",
     "carpetas": [
       "BonusScanner",
       "GearScore"

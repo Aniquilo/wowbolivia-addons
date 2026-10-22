@@ -9,9 +9,9 @@ Los addons son obra de sus autores originales: aquí solo se empaquetan y su tí
 | Addon | Rama | Autor | Origen | Licencia |
 |---|---|---|---|---|
 | Deadly Boss Mods | `dbm` | Barsoom, Bunny67, Zidras, DBM-Frostmourne contributors, original DBM team | [Zidras/DBM-Warmane](https://github.com/Zidras/DBM-Warmane) | Creative Commons BY-NC-SA 3.0 |
-| Details! Damage Meter | `details` | — | [Bunny67/Details-WotLK](https://github.com/Bunny67/Details-WotLK) | GPL-3.0 (módulos) / del autor |
+| Details! Damage Meter | `details` | Terciob (versión 3.3.5: Bunny67) | [Bunny67/Details-WotLK](https://github.com/Bunny67/Details-WotLK) | GPL-3.0 (módulos) / del autor |
 | Skada | `skada` | Kader (bkader#5341) | [bkader/Skada-WoTLK](https://github.com/bkader/Skada-WoTLK) | MIT |
-| WeakAuras | `weakauras` | Blizzard Entertainment | [NoM0Re/WeakAuras-WotLK](https://github.com/NoM0Re/WeakAuras-WotLK) | GPL-2.0 |
+| WeakAuras | `weakauras` | The WeakAuras Team | [NoM0Re/WeakAuras-WotLK](https://github.com/NoM0Re/WeakAuras-WotLK) | GPL-2.0 |
 | ElvUI | `elvui` | Elv, Bunny | [ElvUI-WotLK/ElvUI](https://github.com/ElvUI-WotLK/ElvUI) | Sin licencia publicada (del autor) |
 | Questie | `questie` | Aldori + Original Questie Team | [Aldori15/Questie](https://github.com/Aldori15/Questie) | Sin licencia publicada (del autor) |
 | Auctionator | `auctionator` | Zirco | [alchem1ster/WotLK-Auctionator](https://github.com/alchem1ster/WotLK-Auctionator) | Sin licencia publicada (del autor) |
@@ -25,7 +25,7 @@ Los addons son obra de sus autores originales: aquí solo se empaquetan y su tí
 | pretty_minimap | `pretty-minimap` | s0high | [s0h2x/pretty_minimap](https://github.com/s0h2x/pretty_minimap) | Sin licencia publicada (del autor) |
 | Carbonite | `carbonite` | Carbon Based Creations, LLC | [anzz1/Carbonite-3.3.5](https://github.com/anzz1/Carbonite-3.3.5) | Sin licencia publicada (del autor) |
 | MoveAnything | `moveanything` | Wagthaa | [sirus-addons/MoveAnything](https://github.com/sirus-addons/MoveAnything) | Sin licencia publicada (del autor) |
-| GearScore | `gearscore` | Tristanian (tristanian@live.com) | propio | Del autor |
+| GearScore | `gearscore` | Mirrikat45 | propio | Del autor |
 | IDs | `ids` | Aegir | propio | Del autor |
 
 ## Actualizar un addon

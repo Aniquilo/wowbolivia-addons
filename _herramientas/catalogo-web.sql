@@ -17,14 +17,14 @@ UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia
 
 -- Details! Damage Meter
 INSERT INTO addons (name, category, version, language, author, summary, description, url, image, screenshots, status, submitted_by, submitter, install_type, install_source, install_ref, install_folders, created_at, updated_at)
-  SELECT 'Details! Damage Meter', 'combat', '', 'multi', '', 'Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.', 'Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.
-Autor original: ver el origen.
+  SELECT 'Details! Damage Meter', 'combat', '', 'multi', 'Terciob (versión 3.3.5: Bunny67)', 'Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.', 'Medidor de daño, sanación y amenaza con gráficos y desglose por habilidad.
+Autor original: Terciob (versión 3.3.5: Bunny67).
 Origen: https://github.com/Bunny67/Details-WotLK (commit 97e1cac2e4, 2021-04-12).
 Licencia: GPL-3.0 (módulos) / del autor.
 Carpetas: Details, Details_3DModelsPaths, Details_ChartViewer, Details_DataStorage, Details_DeathGraphs, Details_EncounterDetails, Details_SunderCount, Details_TimeLine, Details_TinyThreat.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/details', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', 'acabaafe3daca1738189eae22f145a0e3ddb926c', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/details', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '1bc11643799ccfec28f453f2d16ed9dbcdad6f02', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'Details! Damage Meter');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = 'acabaafe3daca1738189eae22f145a0e3ddb926c', version = '', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1bc11643799ccfec28f453f2d16ed9dbcdad6f02', version = '', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'Details! Damage Meter' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- Skada
@@ -41,14 +41,14 @@ UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia
 
 -- WeakAuras
 INSERT INTO addons (name, category, version, language, author, summary, description, url, image, screenshots, status, submitted_by, submitter, install_type, install_source, install_ref, install_folders, created_at, updated_at)
-  SELECT 'WeakAuras', 'buffs', '1.0.2', 'multi', 'Blizzard Entertainment', 'Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.', 'Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.
-Autor original: Blizzard Entertainment.
+  SELECT 'WeakAuras', 'buffs', '5.22.1', 'multi', 'The WeakAuras Team', 'Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.', 'Muestra beneficios, perjuicios, tiempos de reutilización y alertas totalmente a tu gusto.
+Autor original: The WeakAuras Team.
 Origen: https://github.com/NoM0Re/WeakAuras-WotLK (commit 8a7f4b0b7e, 2026-10-18).
 Licencia: GPL-2.0.
 Carpetas: APIDocumentation, WeakAuras, WeakAurasArchive, WeakAurasModelPaths, WeakAurasOptions, WeakAurasStopMotion, WeakAurasTemplates.
-Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/weakauras', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '96c37f08e869f4044c43c1122fb4afafe61b4d00', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
+Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/weakauras', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '4c7ee1da280c5d628d2837cdacc7f17eff091eae', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'WeakAuras');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '96c37f08e869f4044c43c1122fb4afafe61b4d00', version = '1.0.2', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '4c7ee1da280c5d628d2837cdacc7f17eff091eae', version = '5.22.1', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'WeakAuras' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- ElvUI
@@ -209,13 +209,13 @@ UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia
 
 -- GearScore
 INSERT INTO addons (name, category, version, language, author, summary, description, url, image, screenshots, status, submitted_by, submitter, install_type, install_source, install_ref, install_folders, created_at, updated_at)
-  SELECT 'GearScore', 'tooltips', '5.3', 'multi', 'Tristanian (tristanian@live.com)', 'Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.', 'Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.
-Autor original: Tristanian (tristanian@live.com).
+  SELECT 'GearScore', 'tooltips', '3.1.17 - Release', 'multi', 'Mirrikat45', 'Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.', 'Calcula el GearScore de cada jugador y lo muestra en su descripción y en la inspección.
+Autor original: Mirrikat45.
 Licencia: Del autor.
 Carpetas: BonusScanner, GearScore.
 Empaquetado por WoW Bolivia para instalarlo desde el launcher; el código es el original.', 'https://github.com/Aniquilo/wowbolivia-addons/tree/gearscore', '', '', '1', '0', 'WoW Bolivia', 'github', 'Aniquilo/wowbolivia-addons', '1f94a4cb5967442866ceea8a19e5c9a5f1bb124a', '', UNIX_TIMESTAMP(), UNIX_TIMESTAMP() FROM DUAL
   WHERE NOT EXISTS (SELECT 1 FROM addons WHERE name = 'GearScore');
-UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1f94a4cb5967442866ceea8a19e5c9a5f1bb124a', version = '5.3', updated_at = UNIX_TIMESTAMP()
+UPDATE addons SET install_type = 'github', install_source = 'Aniquilo/wowbolivia-addons', install_ref = '1f94a4cb5967442866ceea8a19e5c9a5f1bb124a', version = '3.1.17 - Release', updated_at = UNIX_TIMESTAMP()
   WHERE name = 'GearScore' AND (install_source = 'Aniquilo/wowbolivia-addons' OR install_source = '');
 
 -- IDs
