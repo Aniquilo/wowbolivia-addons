@@ -1,0 +1,31 @@
+## Interface: 30300
+## Title: MoveAnything - [|cff5aa9ffWoW Bolivia|r]
+## Version: 18.0.8
+## Author: Wagthaa
+## X-Packaged-By: WoW Bolivia
+## X-WoWBolivia-Source: https://github.com/sirus-addons/MoveAnything @ d82cf92608
+## Notes: |@Version: 16@|Move, scale, hide and adjust transparency of just about any screen element in the game.
+## SavedVariables: MADB
+
+Localizations\Localization.en.lua
+Localizations\Localization.ru.lua
+
+MoveAnything.lua
+Profile.lua
+API.lua
+FrameEditor.lua
+PortDialog.lua
+VirtualMovers.lua
+
+Modules\Alpha.lua
+Modules\Backdrop.lua
+Modules\Layers.lua
+Modules\Misc.lua
+Modules\Position.lua
+Modules\Scale.lua
+Modules\Visibility.lua
+
+FrameList.lua
+
+MoveAnything.xml
+BlizzardOptions.xml
